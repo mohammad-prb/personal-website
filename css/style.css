@@ -25,9 +25,10 @@ html {
 }
 body {
     display: flex;
+    width: 100%;
+    min-width: 320px;
     margin: auto;
     padding: 0;
-    min-width: 320px;
     font-family: myFont;
     font-size: 1rem;
     line-height: 1.5;
@@ -155,7 +156,7 @@ h3.boxTitle > span.icon {
 .boxContent {
     position: relative;
     float: right;
-    width: calc(100% - 40px);
+    width: calc(100% - 32px);
     margin: 16px;
 }
 .skill {
@@ -173,14 +174,14 @@ h3.boxTitle > span.icon {
 }
 strong.softSkill {
     float: right;
-    width: 110px;
+    width: 95px;
     margin-left: 10px;
     text-align: left;
     font-weight: normal;
 }
 .range {
     float: left;
-    width: calc(100% - 120px);
+    width: calc(100% - 105px);
     height: 8px;
     margin-top: 10px;
     border-radius: 4px;
@@ -300,14 +301,22 @@ a.link, a.link:link, a.link:visited {
 a.link:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.link:not(.englishLink)::before, a.englishLink::after {
+a.certificate, a.certificate:link, a.certificate:visited {
+    float: right;
+    padding: 6px 10px 4px;
+    margin: 10px 0 0 10px;
+    border-radius: var(--rds-2);
+    font-size: 0.875rem;
+    background-color: var(--cl-1-bck-gls);
+}
+a.certificate:hover {
+    background-color: var(--cl-1-bck-act);
+}
+a.link:not(.englishLink)::before, a.certificate::after {
     content: "";
     margin-left: 5px;
     font-family: myIcon;
     vertical-align: middle;
-}
-a.englishLink, a.englishLink:link, a.englishLink:visited {
-    padding: 6px 10px 4px;
 }
 /* Desktop */
 @media only screen and (min-width: 767px) {

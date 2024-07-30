@@ -1,0 +1,67 @@
+@media only screen and (max-width: 767px) {
+    body {
+        flex-wrap: wrap;
+    }
+    .menu {
+        width: 100%;
+    }
+    .main {
+        width: calc(100% - 40px);
+    }
+    .row {
+        grid-template-columns: 1fr;
+    }
+    .box {
+        width: 100%;
+    }
+    .softSkillItem {
+        margin-bottom: 10px;
+    }
+    strong.softSkill {
+        text-align: right;
+    }
+    .range {
+        width: 100%;
+        margin-top: 5px;
+    }
+    img.uniLogo {
+        width: 45px;
+    }
+    .uniInfo {
+        width: calc(100% - 85px);
+    }
+    .uniInfoItem {
+        margin: 5px 0;
+    }
+    .line {
+        right: 5px;
+    }
+    .jobItem {
+        width: calc(100% - 35px);
+        margin: 0px 35px 0 0;
+    }
+    h4.jobTitle {
+        width: 100%;
+    }
+    .time {
+        width: 100%;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .projectItem {
+        width: 100%;
+        padding: 0 0 20px 0;
+        margin-bottom: 20px;
+    }
+    .projectItem:last-child {
+        margin: 0;
+        padding: 0;
+    }
+    .projectItem p.description {
+        margin: 5px 0;
+    }
+    a.link, a.link:link, a.link:visited {
+        width: calc(100% - 20px);
+        margin: 10px 0 0 0;
+    }
+}

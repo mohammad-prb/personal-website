@@ -1,6 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
+$version = "1.0.0";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -11,9 +12,12 @@ $email = "pspipm27@gmail.com";
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
     <meta name="description" content="برنامه نویس Full stack با تجربه، علاقه مند به پروژه ها و کارهای تیمی"/>
     <meta name="author" content="محمد پوربهزاد"/>
+    <meta name="theme-color" content="#00B3FF"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="shortcut icon" href="img/mohammad.png"/>
-    <link rel="stylesheet" href="css/theme/light.css?v=1.0.0"/>
-    <link rel="stylesheet" href="css/style.css?v=1.0.0"/>
+    <link rel="stylesheet" href="css/theme/light.css?v=<?php echo $version; ?>"/>
+    <link rel="stylesheet" href="css/style.css?v=<?php echo $version; ?>"/>
+    <link rel="stylesheet" href="css/mobile.css?v=<?php echo $version; ?>"/>
 </head>
 <body dir="rtl">
     <div class="menu">
@@ -152,7 +156,7 @@ $email = "pspipm27@gmail.com";
                     <div class="time">دی 1401 تا تیر 1402</div>
                     <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
                     <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
-                    <a class="link englishLink" href="mohammad-pourbehzad.pdf">Certificate</a>
+                    <a class="certificate" href="mohammad-pourbehzad.pdf">Certificate</a>
                 </div>
             </div>
         </div>
@@ -164,8 +168,7 @@ $email = "pspipm27@gmail.com";
             <div class="boxContent">
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>
-                        <span class="text">پیاده سازی فروشگاه های اینترنتی</span>
+                        <span class="icon"></span>پیاده سازی فروشگاه های اینترنتی
                     </h4>
                     <p class="description">برخی نمونه کارهای آنلاین:</p>
                     <a class="link" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
@@ -177,8 +180,7 @@ $email = "pspipm27@gmail.com";
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>
-                        <span class="text">پیاده سازی وبسایت های تبلیغاتی و سازمانی</span>
+                        <span class="icon"></span>پیاده سازی وبسایت های تبلیغاتی و سازمانی
                     </h4>
                     <p class="description">برخی نمونه کارهای آنلاین:</p>
                     <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
@@ -189,8 +191,7 @@ $email = "pspipm27@gmail.com";
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>
-                        <span class="text">جمع آوری کننده اخبار</span>
+                        <span class="icon"></span>جمع آوری کننده اخبار
                     </h4>
                     <p class="description">
                         این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
@@ -199,8 +200,7 @@ $email = "pspipm27@gmail.com";
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>
-                        <span class="text">وب اپلیکیشن مدیریت اسناد</span>
+                        <span class="icon"></span>وب اپلیکیشن مدیریت اسناد
                     </h4>
                     <p class="description">
                         این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.
@@ -209,8 +209,7 @@ $email = "pspipm27@gmail.com";
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>
-                        <span class="text">وب اپلیکیشن حضورغیاب کارمندان</span>
+                        <span class="icon"></span>وب اپلیکیشن حضورغیاب کارمندان
                     </h4>
                     <p class="description">
                         در این برنامه زمان شروع و پایان کار هر روز را برای افراد خود وارد می کنید. این برنامه میزان کار هر فرد را در روز، هفته، ماه و سال محاسبه می کند.
