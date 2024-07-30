@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "myFont";
+    src: url("fonts/vazir-medium-fd.woff");
+}
+@font-face {
+    font-family: "myFont";
+    src: url("fonts/vazir-black-fd.woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "myIcon";
+    src: url("fonts/bootstrap-icons.woff");
+}
+@font-face {
+    font-family: "english";
+    src: url("fonts/jet-brains-mono-medium.woff2");
+}
+html {
+    height: 100%;
+    background-color: var(--bck-1);
+    color: var(--txt-1);
+}
+body {
+    position: relative;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    min-width: 320px;
+    font-family: myFont;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+a, a:link, a:visited {
+    color: var(--txt-1);
+    text-decoration: none;
+}
+span.icon {
+    display: inline-block;
+    font-family: myIcon;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+span.text {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Desktop */
+@media only screen and (min-width: 767px) {
+    *:not(.scrollAdi)::-webkit-scrollbar {
+        width: 4px;
+        height: 100%;
+    }
+    *:not(.scrollAdi)::-webkit-scrollbar-track {
+        background: var(--scroll-bck);
+        border-radius: var(--rds-1);
+    }
+    *:not(.scrollAdi)::-webkit-scrollbar-thumb {
+        background: var(--scroll-tmb-bck);
+        border-radius: var(--rds-1);
+    }
+    *:not(.scrollAdi)::-webkit-scrollbar-thumb:hover {
+        background: var(--scroll-tmb-bck-hov);
+    }
+    *:not(.scrollAdi)::-webkit-scrollbar-thumb:active {
+        background: var(--scroll-tmb-bck-act);
+    }
+    body::-webkit-scrollbar {
+        width: 10px !important;
+    }
+    body::-webkit-scrollbar-track {
+        border-radius: 0 !important;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 0 !important;
+    }
+}

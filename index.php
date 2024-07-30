@@ -8,9 +8,15 @@
     <meta name="description" content="برنامه نویس Full stack با تجربه، علاقه مند به پروژه ها و کارهای تیمی"/>
     <meta name="author" content="محمد پوربهزاد"/>
     <link rel="shortcut icon" href="mohammad.png"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/theme/light.css?v=1.0.0"/>
+    <link rel="stylesheet" href="css/style.css?v=1.0.0"/>
 </head>
 <body dir="rtl">
+    <div class="menu">
 
+    </div>
+    <div class="main">
+
+    </div>
 </body>
 </html>
