@@ -131,10 +131,28 @@ $email = "pspipm27@gmail.com";
         <div class="box jobs">
             <h3 class="boxTitle">
                 <span class="icon"></span>
-                <span class="text">سوابق شغلی</span>
+                <span class="text">سوابق کاری</span>
             </h3>
             <div class="boxContent">
-
+                <div class="line"></div>
+                <div class="jobItem">
+                    <h4 class="jobTitle">برنامه نویس Full stack</h4>
+                    <div class="time">تیر 1397 تا خرداد 1401</div>
+                    <div class="company">توسعه فناوری های بینش پویان آویژگان (مشهد)</div>
+                    <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
+                </div>
+                <div class="jobItem">
+                    <h4 class="jobTitle">برنامه نویس Full stack</h4>
+                    <div class="time">تیر 1401 تا خرداد 1403</div>
+                    <div class="company">گروه برنامه نویسی اوریوتِک (مشهد)</div>
+                    <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
+                </div>
+                <div class="jobItem">
+                    <h4 class="jobTitle">تدریس در دانشگاه آزاد</h4>
+                    <div class="time">دی 1401 تا تیر 1402</div>
+                    <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
+                    <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401</p>
+                </div>
             </div>
         </div>
     </div>

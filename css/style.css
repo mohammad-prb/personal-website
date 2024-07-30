@@ -151,6 +151,7 @@ h3.boxTitle > span.icon {
     font-weight: normal;
 }
 .boxContent {
+    position: relative;
     float: right;
     width: calc(100% - 40px);
     margin: 16px;
@@ -211,6 +212,60 @@ img.uniLogo {
 }
 .jobs {
     width: 100%;
+}
+.line {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 3px;
+    height: 100%;
+    border-radius: 2px;
+    background-color: var(--cl-1-bck);
+}
+.jobItem {
+    position: relative;
+    float: right;
+    width: calc(100% - 60px);
+    margin: 0 50px 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--brd-1);
+}
+.jobItem:last-child {
+    border: 0;
+}
+.jobItem::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: -34px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: var(--cl-1-bck);
+}
+h4.jobTitle {
+    float: right;
+    width: calc(100% - 200px);
+    margin: 0;
+    font-size: 1.125rem;
+    color: var(--cl-1-bck-hov);
+}
+.time {
+    float: left;
+    width: 200px;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    text-align: left;
+    color: var(--txt-2);
+}
+.company {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+p.description {
+    font-size: 0.875rem;
+    color: var(--txt-2);
 }
 /* Desktop */
 @media only screen and (min-width: 767px) {
