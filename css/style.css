@@ -1,19 +1,19 @@
 @font-face {
     font-family: "myFont";
-    src: url("fonts/vazir-medium-fd.woff");
+    src: url("../fonts/vazir-medium-fd.woff");
 }
 @font-face {
     font-family: "myFont";
-    src: url("fonts/vazir-black-fd.woff");
+    src: url("../fonts/vazir-black-fd.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: "myIcon";
-    src: url("fonts/bootstrap-icons.woff");
+    src: url("../fonts/bootstrap-icons.woff");
 }
 @font-face {
     font-family: "english";
-    src: url("fonts/jet-brains-mono-medium.woff2");
+    src: url("../fonts/jet-brains-mono-medium.woff2");
 }
 html {
     height: 100%;
@@ -21,8 +21,7 @@ html {
     color: var(--txt-1);
 }
 body {
-    position: relative;
-    height: 100%;
+    display: flex;
     margin: auto;
     padding: 0;
     min-width: 320px;
@@ -44,24 +43,193 @@ span.text {
     display: inline-block;
     vertical-align: middle;
 }
+p {
+    float: right;
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+}
+/* Menu */
+.menu {
+    width: 300px;
+    min-height: 100vh;
+    background-color: var(--cl-1-bck);
+}
+img.mainImage {
+    float: right;
+    width: calc(100% - 110px);
+    margin: 15px 30px;
+    border: 10px solid var(--bck-1);
+    padding: 15px;
+    border-radius: 50%;
+}
+h1.name {
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+h2.title {
+    float: right;
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px 0;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: var(--bck-2);
+    color: var(--cl-1-txt);
+}
+address.info {
+    float: right;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    font-style: normal;
+}
+.infoItem {
+    float: right;
+    width: 100%;
+    margin: 5px 0;
+}
+.socials {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: 25px 0;
+}
+a.socialItem, a.socialItem:link, a.socialItem:visited {
+    display: block;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: myIcon;
+    font-size: 1.5rem;
+    background-color: var(--bck-2);
+    color: var(--cl-1-txt);
+    transition: background-color var(--spd-1);
+}
+a.socialItem:hover {
+    background-color: var(--bck-2-hov);
+}
+a.socialItem:active {
+    transition: none;
+    background-color: var(--bck-2-act);
+}
+/* Main */
+.main {
+    float: left;
+    width: calc(100% - 340px);
+    padding: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.box {
+    float: right;
+    padding: 16px 0 0;
+    border-radius: var(--rds-3);
+    background-color: var(--bck-1-hov);
+}
+h3.boxTitle {
+    float: right;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    margin: 0;
+    color: var(--cl-1-bck-hov);
+    background-color: var(--cl-1-bck-gls);
+}
+h3.boxTitle > span.icon {
+    font-weight: normal;
+}
+.boxContent {
+    float: right;
+    width: calc(100% - 40px);
+    margin: 16px;
+}
+.skill {
+    float: left;
+    margin: 5px;
+    padding: 6px 10px 4px;
+    font-family: english;
+    border-radius: var(--rds-2);
+    background-color: var(--bck-1-act);
+}
+.softSkillItem {
+    float: right;
+    width: 100%;
+    margin: 5px 0;
+}
+strong.softSkill {
+    float: right;
+    width: 110px;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+.range {
+    float: left;
+    width: calc(100% - 120px);
+    height: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: var(--bck-1-act);
+}
+.range > span {
+    float: right;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--cl-1-bck);
+}
+img.uniLogo {
+    float: right;
+    width: 60px;
+    margin: 10px;
+}
+.uniInfo {
+    float: right;
+    width: calc(100% - 100px);
+    margin-right: 20px;
+}
+.uniInfoItem {
+    float: right;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 0.875rem;
+}
+.uniInfoItem:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.jobs {
+    width: 100%;
+}
 /* Desktop */
 @media only screen and (min-width: 767px) {
-    *:not(.scrollAdi)::-webkit-scrollbar {
+    *:not(.scroll)::-webkit-scrollbar {
         width: 4px;
         height: 100%;
     }
-    *:not(.scrollAdi)::-webkit-scrollbar-track {
+    *:not(.scroll)::-webkit-scrollbar-track {
         background: var(--scroll-bck);
         border-radius: var(--rds-1);
     }
-    *:not(.scrollAdi)::-webkit-scrollbar-thumb {
+    *:not(.scroll)::-webkit-scrollbar-thumb {
         background: var(--scroll-tmb-bck);
         border-radius: var(--rds-1);
     }
-    *:not(.scrollAdi)::-webkit-scrollbar-thumb:hover {
+    *:not(.scroll)::-webkit-scrollbar-thumb:hover {
         background: var(--scroll-tmb-bck-hov);
     }
-    *:not(.scrollAdi)::-webkit-scrollbar-thumb:active {
+    *:not(.scroll)::-webkit-scrollbar-thumb:active {
         background: var(--scroll-tmb-bck-act);
     }
     body::-webkit-scrollbar {
