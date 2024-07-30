@@ -15,6 +15,9 @@
     font-family: "english";
     src: url("../fonts/jet-brains-mono-medium.woff2");
 }
+* {
+    transition: background-color var(--spd-1), color var(--spd-1);
+}
 html {
     height: 100%;
     background-color: var(--bck-1);
@@ -112,7 +115,6 @@ a.socialItem, a.socialItem:link, a.socialItem:visited {
     font-size: 1.5rem;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
-    transition: background-color var(--spd-1);
 }
 a.socialItem:hover {
     background-color: var(--bck-2-hov);
@@ -210,15 +212,16 @@ img.uniLogo {
     font-size: 1rem;
     font-weight: bold;
 }
-.jobs {
+.jobs, .projects {
     width: 100%;
+    margin-bottom: 20px;
 }
 .line {
     position: absolute;
-    top: 0;
+    top: 8px;
     right: 20px;
     width: 3px;
-    height: 100%;
+    height: calc(100% - 16px);
     border-radius: 2px;
     background-color: var(--cl-1-bck);
 }
@@ -266,6 +269,42 @@ h4.jobTitle {
 p.description {
     font-size: 0.875rem;
     color: var(--txt-2);
+}
+.projectItem {
+    float: right;
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+    border-bottom: 1px solid var(--brd-1);
+}
+.projectItem:last-child {
+    border: 0;
+}
+h4.projectTitle {
+    float: right;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 1.125rem;
+    color: var(--cl-1-bck-hov);
+}
+.projectItem p.description {
+    font-size: 1rem;
+}
+a.projectLink, a.projectLink:link, a.projectLink:visited {
+    float: right;
+    padding: 5px 10px;
+    margin: 10px 0 0 10px;
+    border-radius: var(--rds-2);
+    font-size: 0.875rem;
+    background-color: var(--cl-1-bck-gls);
+}
+a.projectLink:hover {
+    background-color: var(--cl-1-bck-act);
+}
+a.projectLink::before {
+    content: "";
+    margin-left: 5px;
+    font-family: myIcon;
+    vertical-align: middle;
 }
 /* Desktop */
 @media only screen and (min-width: 767px) {

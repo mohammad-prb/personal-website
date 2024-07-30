@@ -67,7 +67,7 @@ $email = "pspipm27@gmail.com";
             </div>
             <div class="box skills">
                 <h3 class="boxTitle">
-                    <span class="icon"></span>
+                    <span class="icon"></span>
                     <span class="text">مهارت ها</span>
                 </h3>
                 <div class="boxContent">
@@ -104,7 +104,7 @@ $email = "pspipm27@gmail.com";
                     </div>
                     <div class="softSkillItem">
                         <strong class="softSkill">خلاقیت</strong>
-                        <div class="range"><span style="width: 80%;"></span></div>
+                        <div class="range"><span style="width: 85%;"></span></div>
                     </div>
                     <div class="softSkillItem">
                         <strong class="softSkill">مشتاق یادگیری</strong>
@@ -127,10 +127,9 @@ $email = "pspipm27@gmail.com";
                 </div>
             </div>
         </div>
-
         <div class="box jobs">
             <h3 class="boxTitle">
-                <span class="icon"></span>
+                <span class="icon"></span>
                 <span class="text">سوابق کاری</span>
             </h3>
             <div class="boxContent">
@@ -151,7 +150,70 @@ $email = "pspipm27@gmail.com";
                     <h4 class="jobTitle">تدریس در دانشگاه آزاد</h4>
                     <div class="time">دی 1401 تا تیر 1402</div>
                     <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
-                    <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401</p>
+                    <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box projects">
+            <h3 class="boxTitle">
+                <span class="icon"></span>
+                <span class="text">پروژه ها</span>
+            </h3>
+            <div class="boxContent">
+                <div class="projectItem">
+                    <h4 class="projectTitle">
+                        <span class="icon"></span>
+                        <span class="text">پیاده سازی فروشگاه های اینترنتی</span>
+                    </h4>
+                    <p class="description">برخی نمونه کارهای آنلاین:</p>
+                    <a class="projectLink" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
+                    <a class="projectLink" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
+                    <a class="projectLink" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
+                    <a class="projectLink" href="https://www.honardouz.ir/" target="_blank">فروشگاه هنردوز</a>
+                    <a class="projectLink" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
+                    <a class="projectLink" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
+                </div>
+                <div class="projectItem">
+                    <h4 class="projectTitle">
+                        <span class="icon"></span>
+                        <span class="text">پیاده سازی وبسایت های تبلیغاتی و سازمانی</span>
+                    </h4>
+                    <p class="description">برخی نمونه کارهای آنلاین:</p>
+                    <a class="projectLink" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
+                    <a class="projectLink" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
+                    <a class="projectLink" href="https://www.vlth.ir/" target="_blank">مدرسه علمیه ولایت</a>
+                    <a class="projectLink" href="https://www.narkh.ir/" target="_blank">اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی</a>
+                    <a class="projectLink" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله مشهد</a>
+                </div>
+                <div class="projectItem">
+                    <h4 class="projectTitle">
+                        <span class="icon"></span>
+                        <span class="text">جمع آوری کننده اخبار</span>
+                    </h4>
+                    <p class="description">
+                        این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
+                        این پروژه در cronjob سرور قرار میگیرد تا وب سایت را بروز نگه دارد. از این پروژه برای بهبود سئو وبسایت نیز استفاده میشود.
+                    </p>
+                </div>
+                <div class="projectItem">
+                    <h4 class="projectTitle">
+                        <span class="icon"></span>
+                        <span class="text">وب اپلیکیشن مدیریت اسناد</span>
+                    </h4>
+                    <p class="description">
+                        این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.
+                        سپس می توانید اسناد را برای هر یک از سطوح دسترسی آپلود کنید. پس از ورود به برنامه، هر فرد تنها می تواند مدارکی را که باید مشاهده کند.
+                    </p>
+                </div>
+                <div class="projectItem">
+                    <h4 class="projectTitle">
+                        <span class="icon"></span>
+                        <span class="text">وب اپلیکیشن حضورغیاب کارمندان</span>
+                    </h4>
+                    <p class="description">
+                        در این برنامه زمان شروع و پایان کار هر روز را برای افراد خود وارد می کنید. این برنامه میزان کار هر فرد را در روز، هفته، ماه و سال محاسبه می کند.
+                        همچنین آمارهای مختلفی از زمان کار هر فرد را ارائه میدهد. این اپلیکیشن همچنین حقوق هر فرد را بر اساس زمان کار انجام شده محاسبه می کند.
+                    </p>
                 </div>
             </div>
         </div>
