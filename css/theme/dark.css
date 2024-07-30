@@ -1,3 +1,34 @@
 :root {
+    --txt-1: hsl(0, 0%, 85%);
+    --txt-2: hsl(0, 0%, 65%);
 
+    --bck-1: hsl(0, 0%, 0%);
+    --bck-1-hov: hsl(0, 0%, 8%);
+    --bck-1-act: hsl(0, 0%, 12%);
+    --bck-1-gls: hsla(0, 0%, 100%, 0.3);
+
+    --bck-2: hsl(0, 0%, 25%);
+    --bck-2-hov: hsl(0, 0%, 10%);
+    --bck-2-act: hsl(0, 0%, 0%);
+
+    --brd-1: hsl(0, 0%, 13%);
+    --brd-2: hsl(0, 0%, 30%);
+
+    --cl-1-bck: hsl(198, 100%, 30%);
+    --cl-1-bck-hov: hsl(198, 100%, 50%);
+    --cl-1-bck-act: hsl(198, 100%, 25%);
+    --cl-1-bck-gls: hsla(198, 100%, 35%, 0.2);
+    --cl-1-txt: hsl(198, 100%, 90%);
+
+    --scroll-bck: hsl(0, 0%, 13%);
+    --scroll-tmb-bck: hsl(0, 0%, 40%);
+    --scroll-tmb-bck-hov: hsl(0, 0%, 50%);
+    --scroll-tmb-bck-act: hsl(0, 0%, 60%);
+
+    --rds-1: 4px;
+    --rds-2: 8px;
+    --rds-3: 16px;
+
+    --spd-1: 0.2s;
+    --spd-2: 0.5s;
 }

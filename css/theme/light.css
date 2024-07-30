@@ -14,10 +14,6 @@
     --brd-1: hsl(0, 0%, 87%);
     --brd-2: hsl(0, 0%, 70%);
 
-    --tbl-hdr: hsl(0, 0%, 87%);
-    --tbl-row-1: hsl(0, 0%, 96%);
-    --tbl-row-2: hsl(0, 0%, 93%);
-
     --cl-1-bck: hsl(198, 100%, 65%);
     --cl-1-bck-hov: hsl(198, 100%, 50%);
     --cl-1-bck-act: hsl(198, 100%, 75%);
@@ -28,10 +24,6 @@
     --scroll-tmb-bck: hsl(0, 0%, 60%);
     --scroll-tmb-bck-hov: hsl(0, 0%, 50%);
     --scroll-tmb-bck-act: hsl(0, 0%, 40%);
-
-    --box-shd-1: 1px 1px 5px hsla(0, 0%, 0%, 0.3);
-    --box-shd-2: 0 0 5px hsla(0, 0%, 0%, 0.3);
-    --txt-shd-1: 0 0 5px hsl(0, 0%, 0%);
 
     --rds-1: 4px;
     --rds-2: 8px;
