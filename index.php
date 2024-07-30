@@ -23,10 +23,10 @@ $email = "pspipm27@gmail.com";
         <address class="info">
             <div class="infoItem">
                 <span class="icon"></span>
-                <span class="text">تاریخ تولد: 1381 (22 سال)</span>
+                <span class="text">متولد 1381 (22 سال)</span>
             </div>
             <div class="infoItem">
-                <span class="icon"></span>
+                <span class="icon"></span>
                 <span class="text"><?php echo $mobile; ?></span>
             </div>
             <div class="infoItem">
@@ -75,6 +75,7 @@ $email = "pspipm27@gmail.com";
                     <div class="skill">Laravel</div>
                     <div class="skill">MySQL</div>
                     <div class="skill">Java</div>
+                    <div class="skill">Python</div>
                     <div class="skill">HTML</div>
                     <div class="skill">CSS</div>
                     <div class="skill">JavaScript</div>
@@ -151,6 +152,7 @@ $email = "pspipm27@gmail.com";
                     <div class="time">دی 1401 تا تیر 1402</div>
                     <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
                     <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
+                    <a class="link englishLink" href="mohammad-pourbehzad.pdf">Certificate</a>
                 </div>
             </div>
         </div>
@@ -166,12 +168,12 @@ $email = "pspipm27@gmail.com";
                         <span class="text">پیاده سازی فروشگاه های اینترنتی</span>
                     </h4>
                     <p class="description">برخی نمونه کارهای آنلاین:</p>
-                    <a class="projectLink" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
-                    <a class="projectLink" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
-                    <a class="projectLink" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
-                    <a class="projectLink" href="https://www.honardouz.ir/" target="_blank">فروشگاه هنردوز</a>
-                    <a class="projectLink" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
-                    <a class="projectLink" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
+                    <a class="link" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
+                    <a class="link" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
+                    <a class="link" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
+                    <a class="link" href="https://www.honardouz.ir/" target="_blank">فروشگاه هنردوز</a>
+                    <a class="link" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
+                    <a class="link" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
@@ -179,11 +181,11 @@ $email = "pspipm27@gmail.com";
                         <span class="text">پیاده سازی وبسایت های تبلیغاتی و سازمانی</span>
                     </h4>
                     <p class="description">برخی نمونه کارهای آنلاین:</p>
-                    <a class="projectLink" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
-                    <a class="projectLink" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
-                    <a class="projectLink" href="https://www.vlth.ir/" target="_blank">مدرسه علمیه ولایت</a>
-                    <a class="projectLink" href="https://www.narkh.ir/" target="_blank">اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی</a>
-                    <a class="projectLink" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله مشهد</a>
+                    <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
+                    <a class="link" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
+                    <a class="link" href="https://www.vlth.ir/" target="_blank">مدرسه علمیه ولایت</a>
+                    <a class="link" href="https://www.narkh.ir/" target="_blank">اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی</a>
+                    <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله مشهد</a>
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">

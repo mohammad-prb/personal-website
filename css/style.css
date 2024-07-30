@@ -106,13 +106,13 @@ address.info {
 }
 a.socialItem, a.socialItem:link, a.socialItem:visited {
     display: block;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     padding: 8px;
     border-radius: 50%;
     text-align: center;
     font-family: myIcon;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
 }
@@ -289,7 +289,7 @@ h4.projectTitle {
 .projectItem p.description {
     font-size: 1rem;
 }
-a.projectLink, a.projectLink:link, a.projectLink:visited {
+a.link, a.link:link, a.link:visited {
     float: right;
     padding: 5px 10px;
     margin: 10px 0 0 10px;
@@ -297,14 +297,17 @@ a.projectLink, a.projectLink:link, a.projectLink:visited {
     font-size: 0.875rem;
     background-color: var(--cl-1-bck-gls);
 }
-a.projectLink:hover {
+a.link:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.projectLink::before {
+a.link:not(.englishLink)::before, a.englishLink::after {
     content: "";
     margin-left: 5px;
     font-family: myIcon;
     vertical-align: middle;
+}
+a.englishLink, a.englishLink:link, a.englishLink:visited {
+    padding: 6px 10px 4px;
 }
 /* Desktop */
 @media only screen and (min-width: 767px) {
