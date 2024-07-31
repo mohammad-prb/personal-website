@@ -53,6 +53,13 @@ p {
     margin: 0;
     text-align: justify;
 }
+select {
+    float: left;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: var(--rds-2);
+    background-color: var(--bck-1-act);
+}
 /* Menu */
 .menu {
     width: 300px;
@@ -319,7 +326,7 @@ a.link:not(.englishLink)::before, a.certificate::after {
     vertical-align: middle;
 }
 /* Desktop */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 800px) {
     *:not(.scroll)::-webkit-scrollbar {
         width: 4px;
         height: 100%;

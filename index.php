@@ -51,6 +51,10 @@ $version = "1.0.0";
                 <a class="socialItem" href="https://wa.me/<?php echo $mobile; ?>" title="WhatsApp" target="_blank"></a>
             </div>
         </address>
+        <!--<select onchange="">
+            <option value="fa">Persian</option>
+            <option value="en">English</option>
+        </select>-->
     </div>
     <div class="main">
         <div class="row">
@@ -104,7 +108,7 @@ $version = "1.0.0";
                         <div class="range"><span style="width: 92%;"></span></div>
                     </div>
                     <div class="softSkillItem">
-                        <strong class="softSkill">منظم و دقیق</strong>
+                        <strong class="softSkill">نظم و دقت</strong>
                         <div class="range"><span style="width: 88%;"></span></div>
                     </div>
                     <div class="softSkillItem">
@@ -112,7 +116,7 @@ $version = "1.0.0";
                         <div class="range"><span style="width: 85%;"></span></div>
                     </div>
                     <div class="softSkillItem">
-                        <strong class="softSkill">مشتاق یادگیری</strong>
+                        <strong class="softSkill">یادگیری</strong>
                         <div class="range"><span style="width: 95%;"></span></div>
                     </div>
                 </div>
@@ -135,7 +139,7 @@ $version = "1.0.0";
         <div class="box jobs">
             <h3 class="boxTitle">
                 <span class="icon"></span>
-                <span class="text">سوابق کاری</span>
+                <span class="text">تجربه های کاری</span>
             </h3>
             <div class="boxContent">
                 <div class="line"></div>
@@ -152,7 +156,7 @@ $version = "1.0.0";
                     <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
                 </div>
                 <div class="jobItem">
-                    <h4 class="jobTitle">تدریس در دانشگاه آزاد</h4>
+                    <h4 class="jobTitle">تدریس در دانشگاه</h4>
                     <div class="time">دی 1401 تا تیر 1402</div>
                     <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
                     <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
