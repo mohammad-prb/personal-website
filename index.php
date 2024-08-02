@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "1.0.0";
+$version = "1.0.1";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -51,10 +51,6 @@ $version = "1.0.0";
                 <a class="socialItem" href="https://wa.me/<?php echo $mobile; ?>" title="WhatsApp" target="_blank"></a>
             </div>
         </address>
-        <!--<select onchange="">
-            <option value="fa">Persian</option>
-            <option value="en">English</option>
-        </select>-->
     </div>
     <div class="main">
         <div class="row">

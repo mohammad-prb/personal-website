@@ -55,10 +55,11 @@ p {
 }
 select {
     float: left;
-    width: 100px;
+    width: 92px;
     padding: 5px 10px;
+    font-family: myFont;
     border-radius: var(--rds-2);
-    background-color: var(--bck-1-act);
+    background-color: var(--bck-1);
 }
 /* Menu */
 .menu {
