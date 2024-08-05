@@ -16,7 +16,7 @@
     src: url("../fonts/jet-brains-mono-medium.woff2");
 }
 * {
-    transition: background-color var(--spd-1), color var(--spd-1);
+    transition: background-color var(--spd-1);
 }
 html {
     height: 100%;
@@ -218,7 +218,7 @@ strong.softSkill {
     float: right;
     height: 8px;
     border-radius: 4px;
-    background-color: var(--cl-1-bck);
+    background-color: var(--cl-1-bck-act);
 }
 img.uniLogo {
     float: right;

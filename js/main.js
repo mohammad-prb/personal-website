@@ -1,7 +1,11 @@
 function changeTheme() {
-    if (localStorage.getItem("theme") === "light")
+    if (localStorage.getItem("theme") === "light") {
         localStorage.setItem("theme", "dark");
-    else
+        document.querySelector(".changetThemeBtn").innerHTML = "";
+    }
+    else {
         localStorage.setItem("theme", "light");
+        document.querySelector(".changetThemeBtn").innerHTML = "";
+    }
     document.querySelector("#theme").href = `css/theme/${localStorage.getItem("theme")}.css?v=${version}`;
 }

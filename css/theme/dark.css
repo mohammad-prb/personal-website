@@ -3,20 +3,20 @@
     --txt-2: hsl(0, 0%, 65%);
 
     --bck-1: hsl(0, 0%, 0%);
-    --bck-1-hov: hsl(0, 0%, 8%);
-    --bck-1-act: hsl(0, 0%, 12%);
+    --bck-1-hov: hsl(0, 0%, 10%);
+    --bck-1-act: hsl(0, 0%, 20%);
     --bck-1-gls: hsla(0, 0%, 100%, 0.3);
 
-    --bck-2: hsl(0, 0%, 25%);
-    --bck-2-hov: hsl(0, 0%, 10%);
-    --bck-2-act: hsl(0, 0%, 0%);
+    --bck-2: hsl(0, 0%, 10%);
+    --bck-2-hov: hsl(0, 0%, 15%);
+    --bck-2-act: hsl(0, 0%, 20%);
 
     --brd-1: hsl(0, 0%, 13%);
     --brd-2: hsl(0, 0%, 30%);
 
-    --cl-1-bck: hsl(198, 100%, 30%);
-    --cl-1-bck-hov: hsl(198, 100%, 50%);
-    --cl-1-bck-act: hsl(198, 100%, 25%);
+    --cl-1-bck: hsl(198, 100%, 20%);
+    --cl-1-bck-hov: hsl(198, 100%, 45%);
+    --cl-1-bck-act: hsl(198, 100%, 35%);
     --cl-1-bck-gls: hsla(198, 100%, 35%, 0.2);
     --cl-1-txt: hsl(198, 100%, 90%);
 
