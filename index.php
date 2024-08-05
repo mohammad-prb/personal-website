@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "1.0.1";
+$version = "2.0.0";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -10,17 +10,22 @@ $version = "1.0.1";
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
-    <meta name="description" content="برنامه نویس Full stack با تجربه، علاقه مند به پروژه ها و کارهای تیمی"/>
+    <meta name="description" content="برنامه نویس Full stack طراح وب با بیش از 6 سال کار تخصصی برنامه نویسی. توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب. آشنایی کامل در فرایند رابط کاربری، تست و عیب یابی. متخصص در زمینه طراحی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی. دارای مهارت در زمینه‌های SEO، Backend، Frontend و... با توانایی انجام پروژه به صورت تکی و همکاری گروهی."/>
     <meta name="author" content="محمد پوربهزاد"/>
     <meta name="theme-color" content="#00B3FF"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="shortcut icon" href="img/mohammad.png"/>
-    <link rel="stylesheet" href="css/theme/light.css?v=<?php echo $version; ?>"/>
+    <script>
+        let version = "<?php echo $version; ?>";
+        if (localStorage.getItem("theme") === null) localStorage.setItem("theme", "light");
+        document.write(`<link id="theme" rel="stylesheet" href="css/theme/${localStorage.getItem("theme")}.css?v=${version}"/>`);
+    </script>
     <link rel="stylesheet" href="css/style.css?v=<?php echo $version; ?>"/>
     <link rel="stylesheet" href="css/mobile.css?v=<?php echo $version; ?>"/>
 </head>
 <body dir="rtl">
     <div class="menu">
+        <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);"></a>
         <img class="mainImage" src="img/main.jpg" alt="محمد پوربهزاد"/>
         <h1 class="name">محمد پوربهزاد</h1>
         <h2 class="title">برنامه نویس Full stack</h2>
@@ -185,7 +190,7 @@ $version = "1.0.1";
                     <p class="description">برخی نمونه کارهای آنلاین:</p>
                     <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
                     <a class="link" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
-                    <a class="link" href="https://www.vlth.ir/" target="_blank">مدرسه علمیه ولایت</a>
+                    <a class="link" href="https://www.vlth.ir/" target="_blank">بنیاد علمی فرهنگی ولایت</a>
                     <a class="link" href="https://www.narkh.ir/" target="_blank">اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی</a>
                     <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله مشهد</a>
                 </div>
@@ -220,4 +225,5 @@ $version = "1.0.1";
         </div>
     </div>
 </body>
+<script src="js/main.js"></script>
 </html>

@@ -63,9 +63,28 @@ select {
 }
 /* Menu */
 .menu {
+    position: relative;
     width: 300px;
     min-height: 100vh;
     background-color: var(--cl-1-bck);
+}
+a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: myIcon;
+}
+a.changetThemeBtn:hover {
+    background-color: var(--cl-1-bck-hov);
+}
+a.changetThemeBtn:active {
+    transition: none;
+    background-color: var(--cl-1-bck-act);
 }
 img.mainImage {
     float: right;
