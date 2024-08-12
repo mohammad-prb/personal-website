@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "2.2.0";
+$version = "2.3.0";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">

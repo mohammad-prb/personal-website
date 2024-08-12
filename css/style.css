@@ -271,7 +271,7 @@ img.uniLogo {
     float: right;
     width: calc(100% - 60px);
     margin: 0 50px 0 10px;
-    padding: 10px 0;
+    padding: 20px 0;
     border-bottom: 1px solid var(--brd-1);
 }
 .jobItem:last-child {
@@ -280,7 +280,7 @@ img.uniLogo {
 .jobItem::before {
     content: "";
     position: absolute;
-    top: 18px;
+    top: 28px;
     right: -34px;
     width: 11px;
     height: 11px;

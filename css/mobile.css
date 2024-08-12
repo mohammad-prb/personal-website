@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1200px) {
+    .examples {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media only screen and (max-width: 800px) {
     body {
         flex-wrap: wrap;
@@ -6,13 +11,19 @@
         width: 100%;
     }
     .main {
-        width: calc(100% - 40px);
+        width: 100%;
+        padding: 20px 0;
     }
     .row {
         grid-template-columns: 1fr;
     }
     .box {
         width: 100%;
+        border-radius: 0;
+    }
+    .boxContent {
+        width: calc(100% - 40px);
+        margin: 20px;
     }
     .softSkillItem {
         margin-bottom: 10px;
@@ -60,8 +71,7 @@
     .projectItem p.description {
         margin: 5px 0;
     }
-    a.link, a.link:link, a.link:visited {
-        width: calc(100% - 20px);
-        margin: 10px 0 0 0;
+    .examples {
+        grid-template-columns: 1fr;
     }
 }
