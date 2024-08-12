@@ -316,17 +316,60 @@ h4.projectTitle {
 }
 .projectItem p.description {
     font-size: 1rem;
+    color: var(--txt-1);
+}
+.examples {
+    float: right;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 15px 0;
+}
+.example {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--rds-3);
+    background-color: var(--bck-1-act);
 }
 a.link, a.link:link, a.link:visited {
     float: right;
-    padding: 5px 10px;
-    margin: 10px 0 0 10px;
-    border-radius: var(--rds-2);
+    width: calc(100% - 30px);
+    padding: 12px 15px;
     font-size: 0.875rem;
-    background-color: var(--cl-1-bck-gls);
+    background-color: var(--bck-2);
+    color: var(--cl-1-txt);
 }
 a.link:hover {
-    background-color: var(--cl-1-bck-act);
+    background-color: var(--bck-2-hov);
+}
+a.link:active {
+    background-color: var(--bck-2-act);
+}
+p.exampleBody {
+    float: right;
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+}
+.showLink {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    float: left;
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--cl-1-bck-hov);
+}
+.showLink:hover {
+    color: var(--cl-1-bck);
+}
+.showLink::after {
+    content: "";
+    margin-right: 3px;
+    font-family: myIcon;
+    vertical-align: middle;
 }
 a.certificate, a.certificate:link, a.certificate:visited {
     float: right;
@@ -339,7 +382,7 @@ a.certificate, a.certificate:link, a.certificate:visited {
 a.certificate:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.link:not(.englishLink)::before, a.certificate::after {
+a.link::before, a.certificate::after {
     content: "";
     margin-left: 5px;
     font-family: myIcon;

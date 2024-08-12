@@ -9,3 +9,7 @@ function changeTheme() {
     }
     document.querySelector("#theme").href = `css/theme/${localStorage.getItem("theme")}.css?v=${version}`;
 }
+
+function clickLink(lmn) {
+    lmn.parentElement.querySelector(".link").click();
+}

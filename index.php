@@ -54,8 +54,8 @@ $version = "2.1.0";
                 <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
                 <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>
                 <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram" target="_blank"></a>
-                <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
                 <a class="socialItem" href="https://wa.me/<?php echo $mobile; ?>" title="WhatsApp" target="_blank"></a>
+                <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
             </div>
         </address>
     </div>
@@ -85,17 +85,20 @@ $version = "2.1.0";
                     <div class="skill">PHP</div>
                     <div class="skill">Laravel</div>
                     <div class="skill">MySQL</div>
+                    <div class="skill">TSQL</div>
                     <div class="skill">Java</div>
                     <div class="skill">Python</div>
                     <div class="skill">HTML</div>
                     <div class="skill">CSS</div>
                     <div class="skill">JavaScript</div>
+                    <div class="skill">JSX</div>
                     <div class="skill">Vue.js</div>
                     <div class="skill">React</div>
                     <div class="skill">jQuery</div>
                     <div class="skill">UI/UX</div>
                     <div class="skill">SEO</div>
                     <div class="skill">Git</div>
+                    <div class="skill">Regex</div>
                 </div>
             </div>
         </div>
@@ -108,19 +111,19 @@ $version = "2.1.0";
                 <div class="boxContent">
                     <div class="softSkillItem">
                         <strong class="softSkill">روحیه کار تیمی</strong>
-                        <div class="range"><span style="width: 92%;"></span></div>
-                    </div>
-                    <div class="softSkillItem">
-                        <strong class="softSkill">نظم و دقت</strong>
-                        <div class="range"><span style="width: 88%;"></span></div>
+                        <div class="range"><span style="width: 95%;"></span></div>
                     </div>
                     <div class="softSkillItem">
                         <strong class="softSkill">خلاقیت</strong>
-                        <div class="range"><span style="width: 85%;"></span></div>
+                        <div class="range"><span style="width: 88%;"></span></div>
+                    </div>
+                    <div class="softSkillItem">
+                        <strong class="softSkill">نظم و دقت</strong>
+                        <div class="range"><span style="width: 92%;"></span></div>
                     </div>
                     <div class="softSkillItem">
                         <strong class="softSkill">یادگیری</strong>
-                        <div class="range"><span style="width: 95%;"></span></div>
+                        <div class="range"><span style="width: 97%;"></span></div>
                     </div>
                 </div>
             </div>
@@ -148,13 +151,7 @@ $version = "2.1.0";
                 <div class="line"></div>
                 <div class="jobItem">
                     <h4 class="jobTitle">برنامه نویس Full stack</h4>
-                    <div class="time">تیر 1397 تا خرداد 1401</div>
-                    <div class="company">توسعه فناوری های بینش پویان آویژگان (مشهد)</div>
-                    <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
-                </div>
-                <div class="jobItem">
-                    <h4 class="jobTitle">برنامه نویس Full stack</h4>
-                    <div class="time">تیر 1401 تا خرداد 1403</div>
+                    <div class="time">تیر 1401 تا تیر 1403</div>
                     <div class="company">گروه برنامه نویسی اوریوتِک (مشهد)</div>
                     <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
                 </div>
@@ -164,6 +161,12 @@ $version = "2.1.0";
                     <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
                     <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
                     <a class="certificate" href="mohammad-pourbehzad.pdf">Certificate</a>
+                </div>
+                <div class="jobItem">
+                    <h4 class="jobTitle">برنامه نویس Full stack</h4>
+                    <div class="time">تیر 1397 تا خرداد 1401</div>
+                    <div class="company">توسعه فناوری های بینش پویان آویژگان (مشهد)</div>
+                    <p class="description">طراحی UX/UI و پیاده سازی قسمت Frontend و Backend انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
                 </div>
             </div>
         </div>
@@ -175,26 +178,109 @@ $version = "2.1.0";
             <div class="boxContent">
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>پیاده سازی فروشگاه های اینترنتی
+                        <span class="icon"></span>پیاده سازی وبسایت های تبلیغاتی و سازمانی
                     </h4>
-                    <p class="description">برخی نمونه کارهای آنلاین:</p>
-                    <a class="link" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
-                    <a class="link" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
-                    <a class="link" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
-                    <a class="link" href="https://www.honardouz.ir/" target="_blank">فروشگاه هنردوز</a>
-                    <a class="link" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
-                    <a class="link" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
+                    <p class="description">
+                        پیاده سازی وبسایت های تبلیغاتی و سازمانی که باعث گسترش فعالیت‌های آنلاین، گسترش تبلیغات و ارتقاء خدمات آن مراکز و سازمان ها شده است.
+                        همچنین همکاری با سازمان های جدید و پیشرفت های قابل توجه را برای آنها فراهم کرده است. برخی نمونه کارهای آنلاین:
+                    </p>
+                    <div class="examples">
+                        <div class="example">
+                            <a class="link" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
+                            <p class="exampleBody">
+                                آموزشگاه فنی و حرفه‌ای آزاد طلا و جواهرسازی زرسنج مهر خراسان مجهز به آزمایشگاه عیارسنجی طلا ۱۷۰۲۵ با ورژن ۲۰۱۷ از مرکز ملی تایید صلاحیت ایران.
+                                دارای گواهی ایزو 9001:2015 انگلستان و...
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.vlth.ir/" target="_blank">بنیاد علمی فرهنگی ولایت</a>
+                            <p class="exampleBody">
+                                بنیاد علمی فرهنگی ولایت با هدف تربیت نیروی انسانی متعهد،
+                                توسعه اقتصادی، ارائه خدمات اجتماعی و فرهنگی و گسترش فعالیت‌های بین‌المللی فعالیت‌های متعددی انجام می‌دهد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
+                            <p class="exampleBody">
+                                پوشش مبل مشهد، کارگاه تولیدی و دوزندگی انواع کاورهای مبل و...
+                                بصورت پارچه ای و طلقی در مشهد با بیش از نیم قرن تجربه و فعالیت حرفه ای در این زمینه است.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.narkh.ir/" target="_blank">بنیاد حفظ آثار و نشر ارزش های دفاع مقدس</a>
+                            <p class="exampleBody">
+                                اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی
+                                به موجب فرمان مقام معظم فرماندهی کل قوا و شرح وظایف ستاد کل نیروهای مسلح در سال 1369 تاسیس شده
+                                و درجهت ارزش های دفاع مقدس فعالیت می کند.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله</a>
+                            <p class="exampleBody">
+                                مجمع اسلامی حبل‌الله مشهد، یک تشکل مردمی است که در اواخر سال 1392 آغاز به فعالیت کرده است
+                                و فعالیت های خود را حول محور همگرایی امت اسلامی انجام می دهد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
-                        <span class="icon"></span>پیاده سازی وبسایت های تبلیغاتی و سازمانی
+                        <span class="icon"></span>پیاده سازی فروشگاه های اینترنتی
                     </h4>
-                    <p class="description">برخی نمونه کارهای آنلاین:</p>
-                    <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
-                    <a class="link" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
-                    <a class="link" href="https://www.vlth.ir/" target="_blank">بنیاد علمی فرهنگی ولایت</a>
-                    <a class="link" href="https://www.narkh.ir/" target="_blank">اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی</a>
-                    <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله مشهد</a>
+                    <p class="description">
+                        پیاده سازی وبسایت های فروشگاهی که باعث گسترش فروش و فعالیت‌های آنلاین، افزایش تنوع محصولات و ارتقاء خدمات به مشتریان آن فروشگاه شده است.
+                        همچنین همکاری با برندهای جدید و برجسته را برای آنها فراهم کرده است. برخی نمونه کارهای آنلاین:
+                    </p>
+                    <div class="examples">
+                        <div class="example">
+                            <a class="link" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
+                            <p class="exampleBody">
+                                فروشگاه دی کالا عرضه کننده انواع محصولات دیجیتال با کیفیت
+                                از جمله انواع گوشی موبایل، ساعت هوشمند، کنسول بازی، هندز فری، ایرپاد، هدست، پرینتر و لوازم جانبی می باشد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
+                            <p class="exampleBody">
+                                فروشگاه رایحه مان توليد كننده و فروشنده انواع عطر و روغن های طبیعی، خاص و درمانی ميباشد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
+                            <p class="exampleBody">
+                                شركت چشم برتر توليد كننده انواع کالای دیجیتال، دوربین های مداربسته، دزدگیر، تجهیزات شبکه، درب های اتومات، تجهیزات ردیابی و... ميباشد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.honardouz.ir/" target="_blank">هنرکده دیجیتال ولیعصر</a>
+                            <p class="exampleBody">
+                                هنرکده دیجیتال ولیعصر توليد كننده انواع تابلوهای گلدوزی شده مثل تابلوهای آویز، اسماء، قرآنی و... ميباشد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
+                            <p class="exampleBody">
+                                فروشگاه روماتویز توليد كننده و فروشنده انواع اکشن فیگور های اورجینال و... ميباشد که خدمات خود را بصورت ریالی، دلاری و رمزارزی انجام می دهد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                        <div class="example">
+                            <a class="link" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
+                            <p class="exampleBody">
+                                فروشگاه ترمه ساهور توليد كننده و فروشنده انواع ترمه، جانماز، سجاده، رومیزی، مخمل و... ميباشد.
+                            </p>
+                            <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="projectItem">
                     <h4 class="projectTitle">
@@ -202,7 +288,10 @@ $version = "2.1.0";
                     </h4>
                     <p class="description">
                         این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
-                        این پروژه در cronjob سرور قرار میگیرد تا وب سایت را بروز نگه دارد. از این پروژه برای بهبود سئو وبسایت نیز استفاده میشود.
+                        این اخبار می توانند در هرکجای وبسایت شما نمایش داده شوند تا باعث بروز نگه داشته شدن محتوای سایت شما برای کاربران و موتوهای جستجو شوند.
+                        این پروژه در Cronjob سرور قرار میگیرد تا بطور مداوم و این اخبار را جمع آوری کند.
+                        این پروژه با توجه به بروز نگه داشتن سایت و قرار دادن محتوای مرتبط با جستجوی کاربران در وبسایت، برای بهبود سئو وبسایت بسیار مفید است و بازدید وبسایت
+                        را به شکل قابل توجهی افزایش می دهد و وبسایت را برای موتورهای جستجو بهینه می کند.
                     </p>
                 </div>
                 <div class="projectItem">
@@ -212,6 +301,9 @@ $version = "2.1.0";
                     <p class="description">
                         این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.
                         سپس می توانید اسناد را برای هر یک از سطوح دسترسی آپلود کنید. پس از ورود به برنامه، هر فرد تنها می تواند مدارکی را که باید مشاهده کند.
+                        این وب اپلیکیشن برای کنترل دسترسی کارکنان سازمان استفاده می شود، همچنین می توان با کمک این برنامه اسناد سازمان را دسته بندی کرد
+                        تا دسترسی به این اسناد راحت شده و از شلوغی اسناد جلوگیری شود. همچنین تاریخ و ساعت بارگذاری هر فایل مشخص شده و ترتیب آنها مشخص است.
+                        در هر لحظه می توان به ورژن های قبلی این فایل ها هم دسترسی داشت.
                     </p>
                 </div>
                 <div class="projectItem">
@@ -220,7 +312,9 @@ $version = "2.1.0";
                     </h4>
                     <p class="description">
                         در این برنامه زمان شروع و پایان کار هر روز را برای افراد خود وارد می کنید. این برنامه میزان کار هر فرد را در روز، هفته، ماه و سال محاسبه می کند.
-                        همچنین آمارهای مختلفی از زمان کار هر فرد را ارائه میدهد. این اپلیکیشن همچنین حقوق هر فرد را بر اساس زمان کار انجام شده محاسبه می کند.
+                        همچنین آمارهای مختلفی از زمان کار هر فرد را در بازه های زمانی مختلف ارائه میدهد.
+                        این اپلیکیشن همچنین حقوق هر فرد را بر اساس زمان کار انجام شده محاسبه می کند.
+                        در این برنامه شما تاریخچه ساعات کاری و حقوق های محاسبه شده برای کارمندان خود را دارید.
                     </p>
                 </div>
             </div>
