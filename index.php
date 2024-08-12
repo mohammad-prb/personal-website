@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "2.1.0";
+$version = "2.2.0";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -28,6 +28,7 @@ $version = "2.1.0";
         <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);">
             <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
         </a>
+        <div class="openToWork">OPEN TO WORK</div>
         <img class="mainImage" src="img/main.jpg" alt="محمد پوربهزاد"/>
         <h1 class="name">محمد پوربهزاد</h1>
         <h2 class="title">برنامه نویس Full stack</h2>

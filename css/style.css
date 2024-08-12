@@ -66,6 +66,7 @@ select {
     position: relative;
     width: 300px;
     min-height: 100vh;
+    overflow: hidden;
     background-color: var(--cl-1-bck);
 }
 a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
@@ -86,10 +87,22 @@ a.changetThemeBtn:active {
     transition: none;
     background-color: var(--cl-1-bck-act);
 }
+.openToWork {
+    position: absolute;
+    top: 27px;
+    left: -54px;
+    width: 200px;
+    padding: 5px 0 3px;
+    text-align: center;
+    font-size: 0.75rem;
+    transform: rotate(-40deg);
+    background-color: var(--cl-1-bck-hov);
+    color: var(--cl-1-txt);
+}
 img.mainImage {
     float: right;
     width: calc(100% - 110px);
-    margin: 15px 30px;
+    margin: 30px 30px 15px;
     border: 10px solid var(--bck-1);
     padding: 15px;
     border-radius: 50%;
