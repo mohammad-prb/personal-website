@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "2.3.0";
+$version = "2.3.1";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -36,6 +36,10 @@ $version = "2.3.0";
             <div class="infoItem">
                 <span class="icon"></span>
                 <span class="text">متولد 1381 (22 سال)</span>
+            </div>
+            <div class="infoItem">
+                <span class="icon"></span>
+                <span class="text">6 سال سابقه کار تخصصی</span>
             </div>
             <div class="infoItem">
                 <span class="icon"></span>
@@ -136,9 +140,9 @@ $version = "2.3.0";
                 <div class="boxContent">
                     <img class="uniLogo" src="img/university.png" alt="دانشگاه آزاد اسلامی"/>
                     <div class="uniInfo">
-                        <div class="uniInfoItem">کارشناسی مهندسی کامپیوتر</div>
+                        <div class="uniInfoItem">کارشناسی مهندسی کامپیوتر (معدل 19)</div>
                         <div class="uniInfoItem">دانشگاه آزاد اسلامی (مشهد)</div>
-                        <div class="uniInfoItem">مهر 1399 - درحال تحصیل</div>
+                        <div class="uniInfoItem">1399 - 1403</div>
                     </div>
                 </div>
             </div>
