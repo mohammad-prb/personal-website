@@ -1,7 +1,7 @@
 <?php
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
-$version = "2.3.2";
+$version = "2.3.3";
 ?>
 <!DOCTYPE html>
 <html lang="fa-ir">
@@ -14,7 +14,7 @@ $version = "2.3.2";
     <meta name="author" content="محمد پوربهزاد"/>
     <meta name="theme-color" content="#00B3FF"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="shortcut icon" href="img/mohammad.png"/>
+    <link rel="shortcut icon" href="img/mohammad-pic.png"/>
     <script>
         let version = "<?php echo $version; ?>";
         if (localStorage.getItem("theme") === null) localStorage.setItem("theme", "light");
@@ -29,7 +29,7 @@ $version = "2.3.2";
             <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
         </a>
         <div class="openToWork">OPEN TO WORK</div>
-        <img class="mainImage" src="img/main.jpg" alt="محمد پوربهزاد"/>
+        <img class="mainImage" src="img/main-pic.jpg" alt="محمد پوربهزاد"/>
         <h1 class="name">محمد پوربهزاد</h1>
         <h2 class="title">برنامه نویس Full stack</h2>
         <address class="info">
