@@ -9,6 +9,10 @@
     }
     .menu {
         width: 100%;
+        min-height: auto;
+    }
+    .socials {
+        margin: 30px 0;
     }
     .main {
         width: 100%;
