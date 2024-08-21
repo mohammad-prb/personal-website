@@ -49,11 +49,14 @@
         margin: 5px 0;
     }
     .line {
-        right: 5px;
+        right: 0;
     }
     .jobItem {
-        width: calc(100% - 35px);
-        margin: 0px 35px 0 0;
+        width: calc(100% - 20px);
+        margin: 0px 20px 0 0;
+    }
+    .jobItem::before {
+        right: -24px;
     }
     h4.jobTitle {
         width: 100%;
