@@ -92,6 +92,19 @@ a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     background-color: var(--cl-1-bck-hov);
     color: var(--cl-1-txt);
 }
+a.lang, a.lang:link, a.lang:visited {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 7px 10px;
+    direction: ltr;
+}
+a.lang > span.icon {
+    margin: 0;
+}
+a.lang > span.text {
+    margin-top: 5px;
+}
 img.mainImage {
     float: right;
     width: calc(100% - 110px);
