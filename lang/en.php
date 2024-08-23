@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
-    <meta name="description" content="برنامه نویس Full stack طراح وب با بیش از 6 سال کار تخصصی برنامه نویسی. توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب. آشنایی کامل در فرایند رابط کاربری، تست و عیب یابی. متخصص در زمینه طراحی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی. دارای مهارت در زمینه‌های SEO، Backend، Frontend و... با توانایی انجام پروژه به صورت تکی و همکاری گروهی."/>
+    <meta name="description" content="Full stack web developer with more than 6 years of specialized programming work.Web developer with experience and skills in all stages of advanced web development.Full familiarity with the process of user interface, testing and troubleshooting.Expert in designing, installing, testing and maintaining web systems.Skilled in the fields of Backend, Frontend, SEO, etc. with the ability to carry out projects individually and as a group."/>
     <meta name="author" content="Mohammad Pourbehzad"/>
     <meta name="theme-color" content="#00B3FF"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
