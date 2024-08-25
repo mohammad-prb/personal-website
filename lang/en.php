@@ -54,7 +54,7 @@
             <span class="text">Iran - Mashhad</span>
         </div>
         <div class="socials">
-            <a class="socialItem" href="tel:<?php echo $mobile; ?>" title="Mobile"></a>
+            <a class="socialItem" href="tel:+98<?php echo substr($mobile, 1); ?>" title="Mobile"></a>
             <a class="socialItem" href="mailto:<?php echo $email; ?>" title="Email"></a>
             <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
             <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>

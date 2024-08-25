@@ -1,5 +1,5 @@
 <?php
-$version = "3.0.1";
+$version = "3.0.2";
 $mobile = "09158955030";
 $email = "pspipm27@gmail.com";
 
