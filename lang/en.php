@@ -91,19 +91,17 @@
                 <div class="skill">Laravel</div>
                 <div class="skill">MySQL</div>
                 <div class="skill">TSQL</div>
-                <div class="skill">Java</div>
-                <div class="skill">Python</div>
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
+                <div class="skill">Vue.js</div>
+                <div class="skill">Inertia</div>
                 <div class="skill">JavaScript</div>
                 <div class="skill">JSX</div>
-                <div class="skill">Vue.js</div>
-                <div class="skill">React</div>
                 <div class="skill">jQuery</div>
-                <div class="skill">UI/UX</div>
+                <div class="skill">Tailwind</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Java</div>
                 <div class="skill">SEO</div>
                 <div class="skill">Git</div>
-                <div class="skill">Regex</div>
             </div>
         </div>
     </div>
