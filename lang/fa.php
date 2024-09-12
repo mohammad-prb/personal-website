@@ -96,11 +96,11 @@
                 <div class="skill">JSX</div>
                 <div class="skill">jQuery</div>
                 <div class="skill">Tailwind</div>
-                <div class="skill">HTML</div>
                 <div class="skill">CSS</div>
+                <div class="skill">SASS</div>
+                <div class="skill">HTML</div>
                 <div class="skill">Java</div>
                 <div class="skill">SEO</div>
-                <div class="skill">Git</div>
             </div>
         </div>
     </div>
