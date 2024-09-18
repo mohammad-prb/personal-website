@@ -90,18 +90,18 @@
                 <div class="skill">PHP</div>
                 <div class="skill">Laravel</div>
                 <div class="skill">MySQL</div>
-                <div class="skill">TSQL</div>
+                <div class="skill">T-SQL</div>
                 <div class="skill">Vue.js</div>
+                <div class="skill">React</div>
                 <div class="skill">Inertia</div>
                 <div class="skill">JavaScript</div>
-                <div class="skill">JSX</div>
                 <div class="skill">jQuery</div>
                 <div class="skill">Tailwind</div>
-                <div class="skill">CSS</div>
+                <div class="skill">Bootstrap</div>
                 <div class="skill">SASS</div>
+                <div class="skill">CSS</div>
                 <div class="skill">HTML</div>
                 <div class="skill">Java</div>
-                <div class="skill">SEO</div>
             </div>
         </div>
     </div>
