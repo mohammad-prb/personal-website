@@ -94,6 +94,7 @@
                 <div class="skill">Vue.js</div>
                 <div class="skill">React</div>
                 <div class="skill">Inertia</div>
+                <div class="skill">TypeScript</div>
                 <div class="skill">JavaScript</div>
                 <div class="skill">jQuery</div>
                 <div class="skill">Tailwind</div>
