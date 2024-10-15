@@ -77,7 +77,7 @@
                     Web developer with experience and skills in all stages of advanced web development.
                     Full familiarity with the process of user interface, testing and troubleshooting.
                     Expert in designing, installing, testing and maintaining web systems.
-                    Skilled in the fields of Backend, Frontend, SEO, etc. with the ability to carry out projects individually and as a group.
+                    Skilled in the fields of Back-end and Front-end with the ability to carry out projects individually and as a group.
                 </p>
             </div>
         </div>
