@@ -73,7 +73,7 @@
             </h3>
             <div class="boxContent">
                 <p>
-                    Full stack web developer with more than 6 years of specialized programming work.
+                    Full-stack web developer with more than 6 years of specialized programming work.
                     Web developer with experience and skills in all stages of advanced web development.
                     Full familiarity with the process of user interface, testing and troubleshooting.
                     Expert in designing, installing, testing and maintaining web systems.

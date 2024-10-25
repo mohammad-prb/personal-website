@@ -27,6 +27,7 @@ body {
     display: flex;
     width: 100%;
     min-width: 320px;
+    max-width: 2000px;
     margin: auto;
     padding: 0;
     font-family: myFont;
