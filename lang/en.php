@@ -93,6 +93,8 @@
                 <div class="skill">T-SQL</div>
                 <div class="skill">Vue.js</div>
                 <div class="skill">React</div>
+                <div class="skill">Next.js</div>
+                <div class="skill">Nuxt.js</div>
                 <div class="skill">Inertia</div>
                 <div class="skill">TypeScript</div>
                 <div class="skill">JavaScript</div>
