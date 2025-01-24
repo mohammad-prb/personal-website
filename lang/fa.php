@@ -73,8 +73,8 @@
             <div class="boxContent">
                 <p>
                     برنامه نویس Full-stack طراح وب با بیش از 6 سال کار تخصصی برنامه نویسی.
-                    توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب. آشنایی کامل در فرایند رابط کاربری، تست و عیب یابی.
-                    متخصص در زمینه طراحی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی در زمینه Back-end و Front-end
+                    توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب.
+                    متخصص در زمینه پیاده‌سازی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی در زمینه Back-end و Front-end
                     با توانایی انجام پروژه به صورت تکی و همکاری گروهی.
                 </p>
             </div>
@@ -87,22 +87,22 @@
             <div class="boxContent">
                 <div class="skill">PHP</div>
                 <div class="skill">Laravel</div>
+                <div class="skill">Python</div>
+                <div class="skill">FastAPI</div>
+                <div class="skill">Java</div>
                 <div class="skill">MySQL</div>
                 <div class="skill">T-SQL</div>
                 <div class="skill">Vue.js</div>
+                <div class="skill">Nuxt.js</div>
                 <div class="skill">React</div>
                 <div class="skill">Next.js</div>
-                <div class="skill">Nuxt.js</div>
-                <div class="skill">Inertia</div>
                 <div class="skill">TypeScript</div>
                 <div class="skill">JavaScript</div>
                 <div class="skill">jQuery</div>
                 <div class="skill">Tailwind</div>
-                <div class="skill">Bootstrap</div>
                 <div class="skill">SASS</div>
                 <div class="skill">CSS</div>
                 <div class="skill">HTML</div>
-                <div class="skill">Java</div>
             </div>
         </div>
     </div>
@@ -139,9 +139,9 @@
             <div class="boxContent">
                 <img class="uniLogo" src="img/university.png" alt="دانشگاه آزاد اسلامی"/>
                 <div class="uniInfo">
-                    <div class="uniInfoItem">کارشناسی مهندسی کامپیوتر (معدل 19)</div>
-                    <div class="uniInfoItem">دانشگاه آزاد اسلامی (مشهد)</div>
-                    <div class="uniInfoItem">1399 - 1403</div>
+                    <div class="uniInfoItem">کارشناسی مهندسی کامپیوتر</div>
+                    <div class="uniInfoItem">دانشگاه آزاد اسلامی (1399 - 1403)</div>
+                    <div class="uniInfoItem">معدل: 18.82</div>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
         <div class="boxContent">
             <div class="line"></div>
             <div class="jobItem">
-                <h4 class="jobTitle">برنامه نویس Full stack</h4>
+                <h4 class="jobTitle">برنامه نویس Full-stack</h4>
                 <div class="time">تیر 1401 تا تیر 1403</div>
                 <div class="company">گروه برنامه نویسی اوریوتِک (مشهد)</div>
                 <p class="description">طراحی و پیاده سازی قسمت Front-end و Back-end انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
@@ -167,7 +167,7 @@
                 <a class="certificate" href="file/mohammad-pourbehzad.pdf">Certificate</a>
             </div>
             <div class="jobItem">
-                <h4 class="jobTitle">برنامه نویس Full stack</h4>
+                <h4 class="jobTitle">توسعه دهنده وب</h4>
                 <div class="time">تیر 1397 تا خرداد 1401</div>
                 <div class="company">توسعه فناوری های بینش پویان آویژگان (مشهد)</div>
                 <p class="description">طراحی و پیاده سازی قسمت Front-end و Back-end انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>

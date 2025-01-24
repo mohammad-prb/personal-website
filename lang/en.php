@@ -75,7 +75,6 @@
                 <p>
                     Full-stack web developer with more than 6 years of specialized programming work.
                     Web developer with experience and skills in all stages of advanced web development.
-                    Full familiarity with the process of user interface, testing and troubleshooting.
                     Expert in designing, installing, testing and maintaining web systems.
                     Skilled in the fields of Back-end and Front-end with the ability to carry out projects individually and as a group.
                 </p>
@@ -89,22 +88,22 @@
             <div class="boxContent">
                 <div class="skill">PHP</div>
                 <div class="skill">Laravel</div>
+                <div class="skill">Python</div>
+                <div class="skill">FastAPI</div>
+                <div class="skill">Java</div>
                 <div class="skill">MySQL</div>
                 <div class="skill">T-SQL</div>
                 <div class="skill">Vue.js</div>
+                <div class="skill">Nuxt.js</div>
                 <div class="skill">React</div>
                 <div class="skill">Next.js</div>
-                <div class="skill">Nuxt.js</div>
-                <div class="skill">Inertia</div>
                 <div class="skill">TypeScript</div>
                 <div class="skill">JavaScript</div>
                 <div class="skill">jQuery</div>
                 <div class="skill">Tailwind</div>
-                <div class="skill">Bootstrap</div>
                 <div class="skill">SASS</div>
                 <div class="skill">CSS</div>
                 <div class="skill">HTML</div>
-                <div class="skill">Java</div>
             </div>
         </div>
     </div>
@@ -141,9 +140,9 @@
             <div class="boxContent">
                 <img class="uniLogo" src="img/university.png" alt="Azad University"/>
                 <div class="uniInfo">
-                    <div class="uniInfoItem">Bachelor's degree, Computer Engineering (GPA: 19)</div>
-                    <div class="uniInfoItem">Islamic Azad University (Mashhad)</div>
-                    <div class="uniInfoItem">2020 - 2024</div>
+                    <div class="uniInfoItem">Bachelor's degree, Computer Engineering</div>
+                    <div class="uniInfoItem">Islamic Azad University (2020 - 2024)</div>
+                    <div class="uniInfoItem">GPA: 18.82</div>
                 </div>
             </div>
         </div>
@@ -169,7 +168,7 @@
                 <a class="certificate" href="file/mohammad-pourbehzad.pdf">Certificate</a>
             </div>
             <div class="jobItem">
-                <h4 class="jobTitle">Full-stack developer</h4>
+                <h4 class="jobTitle">Web developer</h4>
                 <div class="time">Jun 2018 - Jun 2022</div>
                 <div class="company">Avizhgan (Mashhad)</div>
                 <p class="description">Front-end and back-end development of all kinds of store, personal, educational, organizational, etc.</p>
