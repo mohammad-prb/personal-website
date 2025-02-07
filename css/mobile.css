@@ -11,6 +11,10 @@
         width: 100%;
         min-height: auto;
     }
+    img.mainImage {
+        width: calc(100% - 170px);
+        margin: 30px 60px 15px;
+    }
     h1.name {
         font-size: 2rem;
     }
