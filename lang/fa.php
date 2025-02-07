@@ -2,6 +2,7 @@
 <html lang="fa-ir">
 <head>
     <title>محمد پوربهزاد | برنامه نویس Full-stack</title>
+    <base target="_blank" />
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
@@ -20,10 +21,10 @@
 </head>
 <body dir="rtl">
 <div class="menu">
-    <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);">
+    <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);" target="_self">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <a class="lang" href="index.php?en">
+    <a class="lang" href="index.php?en" target="_self">
         <span class="icon"></span>
         <span class="text">EN</span>
     </a>
@@ -54,11 +55,25 @@
         <div class="socials">
             <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
             <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
-            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
-            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>
-            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram" target="_blank"></a>
-            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp" target="_blank"></a>
-            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
+            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
+            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
+            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
+            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
+            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+        </div>
+        <div class="otherSocial">
+            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
+                <img class="otherSocialImage" src="img/stackoverflow.png" alt="stackoverflow account"/>
+            </a>
+            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb">
+                <img class="otherSocialImage" src="img/npm.png" alt="npm account"/>
+            </a>
+            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/">
+                <img class="otherSocialImage" src="img/pypi.png" alt="pypi account"/>
+            </a>
+            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/">
+                <img class="otherSocialImage" src="img/packagist.png" alt="packagist account"/>
+            </a>
         </div>
     </address>
 </div>
@@ -180,7 +195,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">لینک:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities" target="_blank">https://github.com/mohammad-prb/provinces-and-cities</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities">https://github.com/mohammad-prb/provinces-and-cities</a>
                 </div>
                 <p class="description">
                     آماده‌سازی لیست استان‌ها و شهرهای کشورها (درحال حاضر ایران و آلمان) بصورت JSON و MySQL برای استفاده در پروژه‌های مختلف و قرارگیری در دیتابیس.
@@ -193,21 +208,21 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm" target="_blank">پکیج JavaScript</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm">پکیج JavaScript</a>
                         <p class="exampleBody">
                             نصب به وسیله npm
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi" target="_blank">پکیج Python</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi">پکیج Python</a>
                         <p class="exampleBody">
                             نصب به وسیله pip
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer" target="_blank">پکیج PHP</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer">پکیج PHP</a>
                         <p class="exampleBody">
                             نصب به وسیله composer
                         </p>
@@ -225,7 +240,7 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.faridakhondi.ir/" target="_blank">آموزشگاه طلاسازی زرسنج</a>
+                        <a class="link" href="https://www.faridakhondi.ir/">آموزشگاه طلاسازی زرسنج</a>
                         <p class="exampleBody">
                             آموزشگاه فنی و حرفه‌ای آزاد طلا و جواهرسازی زرسنج مهر خراسان مجهز به آزمایشگاه عیارسنجی طلا ۱۷۰۲۵ با ورژن ۲۰۱۷ از مرکز ملی تایید صلاحیت ایران.
                             دارای گواهی ایزو 9001:2015 انگلستان و...
@@ -233,7 +248,7 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.vlth.ir/" target="_blank">بنیاد علمی فرهنگی ولایت</a>
+                        <a class="link" href="https://www.vlth.ir/">بنیاد علمی فرهنگی ولایت</a>
                         <p class="exampleBody">
                             بنیاد علمی فرهنگی ولایت با هدف تربیت نیروی انسانی متعهد،
                             توسعه اقتصادی، ارائه خدمات اجتماعی و فرهنگی و گسترش فعالیت‌های بین‌المللی فعالیت‌های متعددی انجام می‌دهد.
@@ -241,7 +256,7 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">پوشش مبل مشهد</a>
+                        <a class="link" href="https://www.poosheshmobl.ir/">پوشش مبل مشهد</a>
                         <p class="exampleBody">
                             پوشش مبل مشهد، کارگاه تولیدی و دوزندگی انواع کاورهای مبل و...
                             بصورت پارچه ای و طلقی در مشهد با بیش از نیم قرن تجربه و فعالیت حرفه ای در این زمینه است.
@@ -249,7 +264,7 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.narkh.ir/" target="_blank">بنیاد حفظ آثار و نشر ارزش های دفاع مقدس</a>
+                        <a class="link" href="https://www.narkh.ir/">بنیاد حفظ آثار و نشر ارزش های دفاع مقدس</a>
                         <p class="exampleBody">
                             اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی
                             به موجب فرمان مقام معظم فرماندهی کل قوا و شرح وظایف ستاد کل نیروهای مسلح در سال ۱۳۶۹ تاسیس شده
@@ -258,7 +273,7 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله</a>
+                        <a class="link" href="https://www.mihm.ir/">مجمع اسلامی حبل‌الله</a>
                         <p class="exampleBody">
                             مجمع اسلامی حبل‌الله مشهد، یک تشکل مردمی است که در اواخر سال ۱۳۹۲ آغاز به فعالیت کرده است
                             و فعالیت های خود را حول محور همگرایی امت اسلامی انجام می دهد.
@@ -277,7 +292,7 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.dikala.ir/" target="_blank">فروشگاه دی کالا</a>
+                        <a class="link" href="https://www.dikala.ir/">فروشگاه دی کالا</a>
                         <p class="exampleBody">
                             فروشگاه دی کالا عرضه کننده انواع محصولات دیجیتال با کیفیت
                             از جمله انواع گوشی موبایل، ساعت هوشمند، کنسول بازی، هندز فری، ایرپاد، هدست، پرینتر و لوازم جانبی می باشد.
@@ -285,35 +300,35 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.rayehemanshop.ir/" target="_blank">فروشگاه رایحه مان</a>
+                        <a class="link" href="https://www.rayehemanshop.ir/">فروشگاه رایحه مان</a>
                         <p class="exampleBody">
                             فروشگاه رایحه مان توليد كننده و فروشنده انواع عطر و روغن های طبیعی، خاص و درمانی ميباشد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.cheshmbartar.ir/" target="_blank">فروشگاه چشم برتر</a>
+                        <a class="link" href="https://www.cheshmbartar.ir/">فروشگاه چشم برتر</a>
                         <p class="exampleBody">
                             شركت چشم برتر توليد كننده انواع کالای دیجیتال، دوربین های مداربسته، دزدگیر، تجهیزات شبکه، درب های اتومات، تجهیزات ردیابی و... ميباشد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.honardouz.ir/" target="_blank">هنرکده دیجیتال ولیعصر</a>
+                        <a class="link" href="https://www.honardouz.ir/">هنرکده دیجیتال ولیعصر</a>
                         <p class="exampleBody">
                             هنرکده دیجیتال ولیعصر توليد كننده انواع تابلوهای گلدوزی شده مثل تابلوهای آویز، اسماء، قرآنی و... ميباشد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.romaatoys.com/" target="_blank">فروشگاه روماتویز</a>
+                        <a class="link" href="https://www.romaatoys.com/">فروشگاه روماتویز</a>
                         <p class="exampleBody">
                             فروشگاه روماتویز توليد كننده و فروشنده انواع اکشن فیگور های اورجینال و... ميباشد که خدمات خود را بصورت ریالی، دلاری و رمزارزی انجام می دهد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.sahour.ir/" target="_blank">فروشگاه ترمه ساهور</a>
+                        <a class="link" href="https://www.sahour.ir/">فروشگاه ترمه ساهور</a>
                         <p class="exampleBody">
                             فروشگاه ترمه ساهور توليد كننده و فروشنده انواع ترمه، جانماز، سجاده، رومیزی، مخمل و... ميباشد.
                         </p>
@@ -327,7 +342,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">لینک:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector" target="_blank">https://github.com/mohammad-prb/news-collector</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector">https://github.com/mohammad-prb/news-collector</a>
                 </div>
                 <p class="description">
                     این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
@@ -345,7 +360,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">لینک:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management" target="_blank">https://github.com/mohammad-prb/document-management</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management">https://github.com/mohammad-prb/document-management</a>
                 </div>
                 <p class="description">
                     این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.

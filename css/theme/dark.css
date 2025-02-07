@@ -1,14 +1,14 @@
 :root {
-    --txt-1: hsl(0, 0%, 85%);
+    --txt-1: hsl(0, 0%, 100%);
     --txt-2: hsl(0, 0%, 65%);
 
     --bck-1: hsl(0, 0%, 0%);
     --bck-1-hov: hsla(0, 0%, 100%, 0.05);
     --bck-1-act: hsla(0, 0%, 100%, 0.08);
 
-    --bck-2: hsl(0, 0%, 80%);
-    --bck-2-hov: hsl(0, 0%, 75%);
-    --bck-2-act: hsl(0, 0%, 70%);
+    --bck-2: hsl(0, 0%, 10%);
+    --bck-2-hov: hsl(0, 0%, 5%);
+    --bck-2-act: hsl(0, 0%, 0%);
 
     --brd-1: hsl(0, 0%, 20%);
     --brd-2: hsl(0, 0%, 30%);
@@ -17,7 +17,7 @@
     --cl-1-bck-hov: hsl(198, 100%, 45%);
     --cl-1-bck-act: hsl(198, 100%, 35%);
     --cl-1-bck-gls: hsla(198, 100%, 35%, 0.2);
-    --cl-1-txt: hsl(198, 100%, 10%);
+    --cl-1-txt: hsl(198, 100%, 90%);
 
     --scroll-bck: hsl(0, 0%, 13%);
     --scroll-tmb-bck: hsl(0, 0%, 40%);

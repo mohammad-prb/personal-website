@@ -166,6 +166,35 @@ a.socialItem:active {
     transition: none;
     background-color: var(--bck-2-act);
 }
+.otherSocial {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 25px 0;
+    border-top: 1px solid var(--bck-2);
+}
+a.otherSocialItem, a.otherSocialItem:link, a.otherSocialItem:visited {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: var(--rds-2);
+    background-color: var(--bck-2);
+}
+a.otherSocialItem:hover {
+    background-color: var(--bck-2-hov);
+}
+a.otherSocialItem:active {
+    transition: none;
+    background-color: var(--bck-2-act);
+}
+img.otherSocialImage {
+    width: 100%;
+    border-radius: var(--rds-1);
+}
 /* Main */
 .main {
     float: left;
@@ -335,7 +364,7 @@ h4.projectTitle {
 }
 .projectLinkBox {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     float: right;
     width: 100%;
     margin: 10px 0;
@@ -349,13 +378,13 @@ a.projectLink, a.projectLink:link, a.projectLink:visited {
     overflow: hidden;
     text-overflow: ellipsis;
     direction: ltr;
-    color: var(--cl-1-bck);
-}
-a.projectLink:hover {
     color: var(--cl-1-bck-hov);
 }
-a.projectLink:active {
+a.projectLink:hover {
     color: var(--cl-1-bck-act);
+}
+a.projectLink:active {
+    color: var(--cl-1-bck);
 }
 .examples {
     float: right;

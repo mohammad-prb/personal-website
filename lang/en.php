@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Mohammad Pourbehzad | Full-stack developer</title>
+    <base target="_blank" />
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
@@ -21,10 +22,10 @@
 </head>
 <body>
 <div class="menu">
-    <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);">
+    <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);" target="_self">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <a class="lang" href="index.php">
+    <a class="lang" href="index.php" target="_self">
         <span class="icon"></span>
         <span class="text">FA</span>
     </a>
@@ -55,11 +56,25 @@
         <div class="socials">
             <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
             <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
-            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
-            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>
-            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram" target="_blank"></a>
-            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp" target="_blank"></a>
-            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
+            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
+            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
+            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
+            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
+            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+        </div>
+        <div class="otherSocial">
+            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
+                <img class="otherSocialImage" src="img/stackoverflow.png" alt="stackoverflow account"/>
+            </a>
+            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb">
+                <img class="otherSocialImage" src="img/npm.png" alt="npm account"/>
+            </a>
+            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/">
+                <img class="otherSocialImage" src="img/pypi.png" alt="pypi account"/>
+            </a>
+            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/">
+                <img class="otherSocialImage" src="img/packagist.png" alt="packagist account"/>
+            </a>
         </div>
     </address>
 </div>
@@ -179,7 +194,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">Link:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities" target="_blank">https://github.com/mohammad-prb/provinces-and-cities</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities">https://github.com/mohammad-prb/provinces-and-cities</a>
                 </div>
                 <p class="description">
                     Preparing a list of provinces and cities of countries (currently Iran and Germany) in JSON and MySQL for use in various projects and placement in the database.
@@ -192,21 +207,21 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm" target="_blank">JavaScript package</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm">JavaScript package</a>
                         <p class="exampleBody">
                             Install by npm
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi" target="_blank">Python package</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi">Python package</a>
                         <p class="exampleBody">
                             Install by pip
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer" target="_blank">PHP package</a>
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer">PHP package</a>
                         <p class="exampleBody">
                             Install by composer
                         </p>
@@ -224,7 +239,7 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.faridakhondi.ir/" target="_blank">Zarsanj goldsmith school</a>
+                        <a class="link" href="https://www.faridakhondi.ir/">Zarsanj goldsmith school</a>
                         <p class="exampleBody">
                             Zarsanj Mehr Khorasan Technical and Vocational School of Gold and Jewelry is equipped with a 17025 gold grading laboratory with the 2017 version from Iran's National Certification Center.
                             ISO 9001:2015 certified in England and more.
@@ -232,7 +247,7 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.vlth.ir/" target="_blank">Scientific and cultural foundation of Valayat</a>
+                        <a class="link" href="https://www.vlth.ir/">Scientific and cultural foundation of Valayat</a>
                         <p class="exampleBody">
                             Scientific and Cultural Foundation "Velayat" with the aim of training committed human resources.
                             Economic development, provision of social and cultural services and expansion of international activities carry out many activities.
@@ -240,7 +255,7 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.poosheshmobl.ir/" target="_blank">Poosheshmobl Mashhad</a>
+                        <a class="link" href="https://www.poosheshmobl.ir/">Poosheshmobl Mashhad</a>
                         <p class="exampleBody">
                             Poosheshmobl Mashhad, production and sewing workshop of all kinds of sofa covers and more.
                             It is in the form of fabric and talki in Mashhad with more than half a century of experience and professional activity in this field.
@@ -248,7 +263,7 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.narkh.ir/" target="_blank">Foundation for publishing the values of holy defense</a>
+                        <a class="link" href="https://www.narkh.ir/">Foundation for publishing the values of holy defense</a>
                         <p class="exampleBody">
                             The Department of Preservation of Publication of the Values of the Sacred Defense of Khorasan Razavi
                             it was established in 1990 according to the decree of the Supreme Commander of the Armed Forces and the description of the duties of the General Staff of the Armed Forces.
@@ -256,7 +271,7 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.mihm.ir/" target="_blank">Hubalullah Islamic Foundation</a>
+                        <a class="link" href="https://www.mihm.ir/">Hubalullah Islamic Foundation</a>
                         <p class="exampleBody">
                             Habalullah Islamic Assembly of Mashhad is a people's organization that started its activities at the end of 2012.
                             and performs its activities around the convergence of the Islamic nation.
@@ -275,7 +290,7 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.dikala.ir/" target="_blank">Dikala store</a>
+                        <a class="link" href="https://www.dikala.ir/">Dikala store</a>
                         <p class="exampleBody">
                             "Dikala" store is a supplier of all kinds of quality digital products
                             it includes all kinds of mobile phones, smart watches, game consoles, Airpods, headsets, printers and accessories.
@@ -283,35 +298,35 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.rayehemanshop.ir/" target="_blank">Rayeheman store</a>
+                        <a class="link" href="https://www.rayehemanshop.ir/">Rayeheman store</a>
                         <p class="exampleBody">
                             "Rayeheman" store is a producer and seller of all kinds of natural, special and therapeutic perfumes and oils.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.cheshmbartar.ir/" target="_blank">Cheshm bartar</a>
+                        <a class="link" href="https://www.cheshmbartar.ir/">Cheshm bartar</a>
                         <p class="exampleBody">
                             "Cheshm bartar" company produces all kinds of digital products, CCTV cameras, burglar alarms, network equipment, automatic doors, tracking equipment, etc.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.honardouz.ir/" target="_blank">Valiasr Digital Art Center</a>
+                        <a class="link" href="https://www.honardouz.ir/">Valiasr Digital Art Center</a>
                         <p class="exampleBody">
                             Valiasr Digital Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.romaatoys.com/" target="_blank">Romatoys store</a>
+                        <a class="link" href="https://www.romaatoys.com/">Romatoys store</a>
                         <p class="exampleBody">
                             Romatoys store is a producer and seller of all kinds of original action figures, etc. which provides its services in rial, dollar and cryptocurrency.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.sahour.ir/" target="_blank">Sahour store</a>
+                        <a class="link" href="https://www.sahour.ir/">Sahour store</a>
                         <p class="exampleBody">
                             Sahour cashmere store is a producer and seller of all kinds of cashmere, rugs, tablecloths, velvet, etc.
                         </p>
@@ -325,7 +340,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">Link:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector" target="_blank">https://github.com/mohammad-prb/news-collector</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector">https://github.com/mohammad-prb/news-collector</a>
                 </div>
                 <p class="description">
                     This project collects recent news on news websites about a keyword and adds the collected news to the database.
@@ -342,7 +357,7 @@
                 </h4>
                 <div class="projectLinkBox">
                     <div class="projectLinkTitle">Link:</div>
-                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management" target="_blank">https://github.com/mohammad-prb/document-management</a>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management">https://github.com/mohammad-prb/document-management</a>
                 </div>
                 <p class="description">
                     This program is used to manage documents in an organization. In this program, you enter your people and determine the access level of each one.
