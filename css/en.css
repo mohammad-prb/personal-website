@@ -43,6 +43,9 @@ a.certificate, a.certificate:link, a.certificate:visited {
 a.link::before {
     margin: 0 5px 0 0;
 }
+p.exampleBody {
+    text-align: left;
+}
 .showLink {
     left: unset;
     right: 10px;

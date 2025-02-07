@@ -85,24 +85,17 @@
                 <span class="text">Skills</span>
             </h3>
             <div class="boxContent">
-                <div class="skill">PHP</div>
-                <div class="skill">Laravel</div>
-                <div class="skill">Python</div>
-                <div class="skill">FastAPI</div>
+                <div class="skill">PHP/Laravel</div>
+                <div class="skill">Python/FastAPI</div>
                 <div class="skill">Java</div>
                 <div class="skill">MySQL</div>
-                <div class="skill">T-SQL</div>
-                <div class="skill">Vue.js</div>
-                <div class="skill">Nuxt.js</div>
-                <div class="skill">React</div>
-                <div class="skill">Next.js</div>
-                <div class="skill">TypeScript</div>
-                <div class="skill">JavaScript</div>
+                <div class="skill">Vue/Nuxt</div>
+                <div class="skill">React/Next</div>
+                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">jQuery</div>
-                <div class="skill">Tailwind</div>
+                <div class="skill">TailwindCSS</div>
                 <div class="skill">SASS</div>
-                <div class="skill">CSS</div>
-                <div class="skill">HTML</div>
+                <div class="skill">HTML/CSS</div>
             </div>
         </div>
     </div>
@@ -180,6 +173,47 @@
             <span class="text">Projects</span>
         </h3>
         <div class="boxContent">
+            <div class="projectItem">
+                <h4 class="projectTitle">
+                    <span class="icon"></span>Countries provinces and cities
+                </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">Link:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities" target="_blank">https://github.com/mohammad-prb/provinces-and-cities</a>
+                </div>
+                <p class="description">
+                    Preparing a list of provinces and cities of countries (currently Iran and Germany) in JSON and MySQL for use in various projects and placement in the database.
+                </p>
+                <p class="description">
+                    Also, implementing and publishing official packages of these lists for JavaScript, Python, and PHP to make this information easier to use.
+                </p>
+                <p class="description">
+                    (So far, this project and its packages have received a total of more than 70 stars on GitHub)
+                </p>
+                <div class="examples">
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm" target="_blank">JavaScript package</a>
+                        <p class="exampleBody">
+                            Install by npm
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">Show</div>
+                    </div>
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi" target="_blank">Python package</a>
+                        <p class="exampleBody">
+                            Install by pip
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">Show</div>
+                    </div>
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer" target="_blank">PHP package</a>
+                        <p class="exampleBody">
+                            Install by composer
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">Show</div>
+                    </div>
+                </div>
+            </div>
             <div class="projectItem">
                 <h4 class="projectTitle">
                     <span class="icon"></span>Developing organizational and advertising websites
@@ -296,6 +330,8 @@
                 <p class="description">
                     This project collects recent news on news websites about a keyword and adds the collected news to the database.
                     These news can be displayed anywhere on your website to keep your site content updated for users and search engines.
+                </p>
+                <p class="description">
                     This project is placed in Cronjob server to continuously collect this news.
                     This project is very useful for improving the SEO of the website by keeping the site up-to-date and placing content related to users' searches on the website, and significantly increases website visits and optimizes the website for search engines.
                 </p>
@@ -311,6 +347,8 @@
                 <p class="description">
                     This program is used to manage documents in an organization. In this program, you enter your people and determine the access level of each one.
                     You can then upload documents for each of the access levels. After entering the program, each person can only view the documents they need.
+                </p>
+                <p class="description">
                     This web application is used to control the access of the organization's employees, and with the help of this program, the organization's documents can be categorized so that the access to these documents is easy and the documents are not crowded.
                     Also, the date and time of uploading each file is specified and their order is specified.
                     You can access the previous versions of these files at any time.
@@ -323,6 +361,8 @@
                 <p class="description">
                     In this program, you enter the start and end time of each day for your people. This program calculates the amount of work of each person in the day, week, month and year.
                     It also provides different statistics of each person's working time in different time periods.
+                </p>
+                <p class="description">
                     This application also calculates the salary of each person based on the time of work done.
                     In this program, you have the history of working hours and calculated salaries for your employees.
                 </p>

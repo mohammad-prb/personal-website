@@ -373,17 +373,23 @@ a.projectLink:active {
 }
 a.link, a.link:link, a.link:visited {
     float: right;
-    width: calc(100% - 30px);
-    padding: 10px 15px;
+    width: calc(100% - 44px);
+    padding: 10px 10px;
+    margin: 12px;
     font-size: 0.875rem;
-    background-color: var(--bck-2);
-    color: var(--cl-1-txt);
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: var(--rds-2);
+    background-color: var(--bck-1-hov);
+    transition: color 0.2s;
 }
 a.link:hover {
-    background-color: var(--bck-2-hov);
+    color: var(--cl-1-bck-hov);
 }
 a.link:active {
-    background-color: var(--bck-2-act);
+    color: var(--cl-1-bck-act);
 }
 a.link::before {
     content: "";
@@ -395,9 +401,10 @@ a.link::before {
 p.exampleBody {
     float: right;
     width: calc(100% - 30px);
-    padding: 15px;
+    padding: 0 15px 15px;
     margin-bottom: 30px;
     font-size: 0.875rem;
+    text-align: right;
 }
 .showLink {
     position: absolute;

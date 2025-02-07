@@ -73,6 +73,8 @@
                 <p>
                     برنامه نویس Full-stack طراح وب با بیش از ۶ سال کار تخصصی برنامه نویسی.
                     توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب.
+                </p>
+                <p>
                     متخصص در زمینه پیاده‌سازی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی در زمینه Back-end و Front-end
                     با توانایی انجام پروژه به صورت تکی و همکاری گروهی.
                 </p>
@@ -84,24 +86,17 @@
                 <span class="text">مهارت ها</span>
             </h3>
             <div class="boxContent">
-                <div class="skill">PHP</div>
-                <div class="skill">Laravel</div>
-                <div class="skill">Python</div>
-                <div class="skill">FastAPI</div>
+                <div class="skill">PHP/Laravel</div>
+                <div class="skill">Python/FastAPI</div>
                 <div class="skill">Java</div>
                 <div class="skill">MySQL</div>
-                <div class="skill">T-SQL</div>
-                <div class="skill">Vue.js</div>
-                <div class="skill">Nuxt.js</div>
-                <div class="skill">React</div>
-                <div class="skill">Next.js</div>
-                <div class="skill">TypeScript</div>
-                <div class="skill">JavaScript</div>
+                <div class="skill">Vue/Nuxt</div>
+                <div class="skill">React/Next</div>
+                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">jQuery</div>
-                <div class="skill">Tailwind</div>
+                <div class="skill">TailwindCSS</div>
                 <div class="skill">SASS</div>
-                <div class="skill">CSS</div>
-                <div class="skill">HTML</div>
+                <div class="skill">HTML/CSS</div>
             </div>
         </div>
     </div>
@@ -179,6 +174,47 @@
             <span class="text">پروژه ها</span>
         </h3>
         <div class="boxContent">
+            <div class="projectItem">
+                <h4 class="projectTitle">
+                    <span class="icon"></span>پکیج لیست استان‌ها و شهرها
+                </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">لینک:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/provinces-and-cities" target="_blank">https://github.com/mohammad-prb/provinces-and-cities</a>
+                </div>
+                <p class="description">
+                    آماده‌سازی لیست استان‌ها و شهرهای کشورها (درحال حاضر ایران و آلمان) بصورت JSON و MySQL برای استفاده در پروژه‌های مختلف و قرارگیری در دیتابیس.
+                </p>
+                <p class="description">
+                    همچنین پیاده‌سازی و انتشار پکیج رسمی این لیست‌ها برای JavaScript و Python و PHP درجهت استفاده راحت تر از این اطلاعات.
+                </p>
+                <p class="description">
+                    (تاکنون این پروژه و پکیج‌هایش در مجموع بیش از ۷۰ استار در گیت‌هاب دریافت کرده‌اند)
+                </p>
+                <div class="examples">
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-npm" target="_blank">پکیج JavaScript</a>
+                        <p class="exampleBody">
+                            نصب به وسیله npm
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                    </div>
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-pypi" target="_blank">پکیج Python</a>
+                        <p class="exampleBody">
+                            نصب به وسیله pip
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                    </div>
+                    <div class="example">
+                        <a class="link" href="https://github.com/mohammad-prb/provinces-and-cities-composer" target="_blank">پکیج PHP</a>
+                        <p class="exampleBody">
+                            نصب به وسیله composer
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                    </div>
+                </div>
+            </div>
             <div class="projectItem">
                 <h4 class="projectTitle">
                     <span class="icon"></span>پیاده سازی وبسایت های تبلیغاتی و سازمانی
@@ -296,6 +332,8 @@
                 <p class="description">
                     این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
                     این اخبار می توانند در هرکجای وبسایت شما نمایش داده شوند تا باعث بروز نگه داشته شدن محتوای سایت شما برای کاربران و موتوهای جستجو شوند.
+                </p>
+                <p class="description">
                     این پروژه در Cronjob سرور قرار میگیرد تا بطور مداوم و این اخبار را جمع آوری کند.
                     این پروژه با توجه به بروز نگه داشتن سایت و قرار دادن محتوای مرتبط با جستجوی کاربران در وبسایت، برای بهبود سئو وبسایت بسیار مفید است و بازدید وبسایت
                     را به شکل قابل توجهی افزایش می دهد و وبسایت را برای موتورهای جستجو بهینه می کند.
@@ -312,6 +350,8 @@
                 <p class="description">
                     این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.
                     سپس می توانید اسناد را برای هر یک از سطوح دسترسی آپلود کنید. پس از ورود به برنامه، هر فرد تنها می تواند مدارکی را که باید مشاهده کند.
+                </p>
+                <p class="description">
                     این وب اپلیکیشن برای کنترل دسترسی کارکنان سازمان استفاده می شود، همچنین می توان با کمک این برنامه اسناد سازمان را دسته بندی کرد
                     تا دسترسی به این اسناد راحت شده و از شلوغی اسناد جلوگیری شود. همچنین تاریخ و ساعت بارگذاری هر فایل مشخص شده و ترتیب آنها مشخص است.
                     در هر لحظه می توان به ورژن های قبلی این فایل ها هم دسترسی داشت.
@@ -324,6 +364,8 @@
                 <p class="description">
                     در این برنامه زمان شروع و پایان کار هر روز را برای افراد خود وارد می کنید. این برنامه میزان کار هر فرد را در روز، هفته، ماه و سال محاسبه می کند.
                     همچنین آمارهای مختلفی از زمان کار هر فرد را در بازه های زمانی مختلف ارائه میدهد.
+                </p>
+                <p class="description">
                     این اپلیکیشن همچنین حقوق هر فرد را بر اساس زمان کار انجام شده محاسبه می کند.
                     در این برنامه شما تاریخچه ساعات کاری و حقوق های محاسبه شده برای کارمندان خود را دارید.
                 </p>
