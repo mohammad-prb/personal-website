@@ -23,7 +23,6 @@
     <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <!--<div class="openToWork">OPEN TO WORK</div>-->
     <a class="lang" href="index.php?en">
         <span class="icon"></span>
         <span class="text">EN</span>
@@ -290,6 +289,10 @@
                 <h4 class="projectTitle">
                     <span class="icon"></span>جمع آوری کننده اخبار
                 </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">لینک:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector" target="_blank">https://github.com/mohammad-prb/news-collector</a>
+                </div>
                 <p class="description">
                     این پروژه اخبار اخیر را در وبسایت های خبری درمورد یک کلمه کلیدی جمع آوری می کند و این اخبار جمع آوری شده را به پایگاه داده اضافه می کند.
                     این اخبار می توانند در هرکجای وبسایت شما نمایش داده شوند تا باعث بروز نگه داشته شدن محتوای سایت شما برای کاربران و موتوهای جستجو شوند.
@@ -302,6 +305,10 @@
                 <h4 class="projectTitle">
                     <span class="icon"></span>وب اپلیکیشن مدیریت اسناد
                 </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">لینک:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management" target="_blank">https://github.com/mohammad-prb/document-management</a>
+                </div>
                 <p class="description">
                     این برنامه برای مدیریت اسناد در یک سازمان استفاده می شود. در این برنامه، افراد خود را وارد کرده و سطح دسترسی هر یک را تعیین می کنید.
                     سپس می توانید اسناد را برای هر یک از سطوح دسترسی آپلود کنید. پس از ورود به برنامه، هر فرد تنها می تواند مدارکی را که باید مشاهده کند.

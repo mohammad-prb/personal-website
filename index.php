@@ -1,5 +1,5 @@
 <?php
-$version = "3.1.8";
+$version = "3.1.9";
 
 if (isset($_GET["en"]))
     require "lang/en.php";

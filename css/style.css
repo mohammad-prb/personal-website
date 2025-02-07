@@ -85,18 +85,6 @@ a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     text-align: center;
     font-family: myIcon;
 }
-.openToWork {
-    position: absolute;
-    top: 27px;
-    left: -54px;
-    width: 200px;
-    padding: 5px 0 3px;
-    text-align: center;
-    font-size: 0.75rem;
-    transform: rotate(-40deg);
-    background-color: var(--cl-1-bck-hov);
-    color: var(--cl-1-txt);
-}
 a.lang, a.lang:link, a.lang:visited {
     position: absolute;
     top: 5px;
@@ -143,6 +131,8 @@ address.info {
     font-style: normal;
 }
 .infoItem {
+    display: flex;
+    align-items: center;
     float: right;
     width: 100%;
     margin: 5px 0;
@@ -342,6 +332,30 @@ h4.projectTitle {
 .projectItem p.description {
     font-size: 1rem;
     color: var(--txt-1);
+}
+.projectLinkBox {
+    display: flex;
+    gap: 10px;
+    float: right;
+    width: 100%;
+    margin: 10px 0;
+}
+.projectLinkTitle {
+    flex: 0 0 35px;
+    font-weight: bold;
+}
+a.projectLink, a.projectLink:link, a.projectLink:visited {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+    color: var(--cl-1-bck);
+}
+a.projectLink:hover {
+    color: var(--cl-1-bck-hov);
+}
+a.projectLink:active {
+    color: var(--cl-1-bck-act);
 }
 .examples {
     float: right;

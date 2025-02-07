@@ -24,7 +24,6 @@
     <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <!--<div class="openToWork">OPEN TO WORK</div>-->
     <a class="lang" href="index.php">
         <span class="icon"></span>
         <span class="text">FA</span>
@@ -290,6 +289,10 @@
                 <h4 class="projectTitle">
                     <span class="icon"></span>News Collector
                 </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">Link:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/news-collector" target="_blank">https://github.com/mohammad-prb/news-collector</a>
+                </div>
                 <p class="description">
                     This project collects recent news on news websites about a keyword and adds the collected news to the database.
                     These news can be displayed anywhere on your website to keep your site content updated for users and search engines.
@@ -301,6 +304,10 @@
                 <h4 class="projectTitle">
                     <span class="icon"></span>Document management web application
                 </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">Link:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/document-management" target="_blank">https://github.com/mohammad-prb/document-management</a>
+                </div>
                 <p class="description">
                     This program is used to manage documents in an organization. In this program, you enter your people and determine the access level of each one.
                     You can then upload documents for each of the access levels. After entering the program, each person can only view the documents they need.
