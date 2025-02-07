@@ -111,7 +111,7 @@ h1.name {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 h2.title {
@@ -142,9 +142,16 @@ address.info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
     width: 100%;
     margin: 25px 0;
+}
+.socialsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 270px;
 }
 a.socialItem, a.socialItem:link, a.socialItem:visited {
     display: block;

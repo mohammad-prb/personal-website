@@ -53,13 +53,15 @@
             <span class="text">خراسان رضوی - مشهد</span>
         </div>
         <div class="socials">
-            <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
-            <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
-            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
-            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
-            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
-            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
-            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+            <div class="socialsWrapper">
+                <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
+                <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
+                <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
+                <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
+                <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
+                <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
+                <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+            </div>
         </div>
         <div class="otherSocial">
             <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
@@ -201,7 +203,7 @@
                     آماده‌سازی لیست استان‌ها و شهرهای کشورها (درحال حاضر ایران و آلمان) بصورت JSON و MySQL برای استفاده در پروژه‌های مختلف و قرارگیری در دیتابیس.
                 </p>
                 <p class="description">
-                    همچنین پیاده‌سازی و انتشار پکیج رسمی این لیست‌ها برای JavaScript و Python و PHP درجهت استفاده راحت تر از این اطلاعات.
+                    همچنین پیاده‌سازی و انتشار پکیج رسمی این لیست‌ها برای JavaScript و Python و PHP در جهت استفاده راحت تر از این اطلاعات.
                 </p>
                 <p class="description">
                     (تاکنون این پروژه و پکیج‌هایش در مجموع بیش از ۷۰ استار در گیت‌هاب دریافت کرده‌اند)

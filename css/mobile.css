@@ -11,6 +11,9 @@
         width: 100%;
         min-height: auto;
     }
+    h1.name {
+        font-size: 2rem;
+    }
     .socials {
         margin: 30px 0;
     }

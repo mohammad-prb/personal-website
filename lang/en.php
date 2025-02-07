@@ -54,13 +54,15 @@
             <span class="text">Iran - Mashhad</span>
         </div>
         <div class="socials">
-            <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
-            <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
-            <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
-            <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
-            <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
-            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
-            <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+            <div class="socialsWrapper">
+                <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
+                <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
+                <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn"></a>
+                <a class="socialItem" href="https://github.com/mohammad-prb" title="Github"></a>
+                <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>
+                <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>
+                <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram"></a>
+            </div>
         </div>
         <div class="otherSocial">
             <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
@@ -89,6 +91,8 @@
                 <p>
                     Full-stack web developer with more than 6 years of specialized programming work.
                     Web developer with experience and skills in all stages of advanced web development.
+                </p>
+                <p>
                     Expert in designing, installing, testing and maintaining web systems.
                     Skilled in the fields of Back-end and Front-end with the ability to carry out projects individually and as a group.
                 </p>

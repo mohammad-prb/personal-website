@@ -5,6 +5,9 @@ body {
 span.icon {
     margin: -2px 5px 0 0;
 }
+h1.name {
+    font-size: 1.25rem;
+}
 strong.softSkill {
     float: left;
     margin: 0 10px 0 0;
@@ -55,6 +58,9 @@ p.exampleBody {
     margin: 0 0 0 3px;
 }
 @media only screen and (max-width: 800px) {
+    h1.name {
+        font-size: 1.5rem;
+    }
     strong.softSkill {
         text-align: left;
     }
