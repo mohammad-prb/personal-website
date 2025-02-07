@@ -43,23 +43,23 @@
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">+98<?php echo substr($mobile, 1); ?></span>
+            <span class="text">+989158955030</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text"><?php echo $email; ?></span>
+            <span class="text">pspipm27@gmail.com</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
             <span class="text">Iran - Mashhad</span>
         </div>
         <div class="socials">
-            <a class="socialItem" href="tel:+98<?php echo substr($mobile, 1); ?>" title="Mobile"></a>
-            <a class="socialItem" href="mailto:<?php echo $email; ?>" title="Email"></a>
+            <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
+            <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
             <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
             <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>
             <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram" target="_blank"></a>
-            <a class="socialItem" href="https://wa.me/<?php echo $mobile; ?>" title="WhatsApp" target="_blank"></a>
+            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp" target="_blank"></a>
             <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
         </div>
     </address>

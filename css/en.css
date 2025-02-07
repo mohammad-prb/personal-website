@@ -1,11 +1,6 @@
-@font-face {
-    font-family: "myFont";
-    src: url("../fonts/sf-pro-display-regular.woff");
-}
-@font-face {
-    font-family: "myFont";
-    src: url("../fonts/sf-pro-display-bold.woff");
-    font-weight: bold;
+body {
+    font-family: englishFont;
+    line-height: 1.5;
 }
 span.icon {
     margin: -2px 5px 0 0;

@@ -1,18 +1,23 @@
 @font-face {
-    font-family: "myFont";
-    src: url("../fonts/vazir-medium-fd.woff");
+    font-family: "persianFont";
+    src: url("../fonts/dana-regular.woff2");
 }
 @font-face {
-    font-family: "myFont";
-    src: url("../fonts/vazir-black-fd.woff");
+    font-family: "englishFont";
+    src: url("../fonts/sf-pro-display-regular.woff");
+}
+@font-face {
+    font-family: "englishFont";
+    src: url("../fonts/sf-pro-display-bold.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: "myIcon";
     src: url("../fonts/bootstrap-icons.woff");
 }
+
 @font-face {
-    font-family: "english";
+    font-family: "codeFont";
     src: url("../fonts/jet-brains-mono-medium.woff2");
 }
 * {
@@ -30,9 +35,8 @@ body {
     max-width: 2000px;
     margin: auto;
     padding: 0;
-    font-family: myFont;
+    font-family: persianFont;
     font-size: 1rem;
-    line-height: 1.5;
 }
 a, a:link, a:visited {
     color: var(--txt-1);
@@ -58,7 +62,7 @@ select {
     float: left;
     width: 92px;
     padding: 5px 10px;
-    font-family: myFont;
+    font-family: persianFont;
     border-radius: var(--rds-2);
     background-color: var(--bck-1);
 }
@@ -161,6 +165,7 @@ a.socialItem, a.socialItem:link, a.socialItem:visited {
     text-align: center;
     font-family: myIcon;
     font-size: 1.25rem;
+    line-height: 1.5;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
 }
@@ -210,7 +215,7 @@ h3.boxTitle > span.icon {
     float: left;
     margin: 5px;
     padding: 6px 10px 4px;
-    font-family: english;
+    font-family: codeFont;
     border-radius: var(--rds-2);
     background-color: var(--bck-1-act);
 }
@@ -221,14 +226,14 @@ h3.boxTitle > span.icon {
 }
 strong.softSkill {
     float: right;
-    width: 95px;
+    width: 100px;
     margin-left: 10px;
     text-align: left;
     font-weight: normal;
 }
 .range {
     float: left;
-    width: calc(100% - 105px);
+    width: calc(100% - 110px);
     height: 8px;
     margin-top: 10px;
     border-radius: 4px;
@@ -355,7 +360,7 @@ h4.projectTitle {
 a.link, a.link:link, a.link:visited {
     float: right;
     width: calc(100% - 30px);
-    padding: 12px 15px;
+    padding: 10px 15px;
     font-size: 0.875rem;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
@@ -366,11 +371,18 @@ a.link:hover {
 a.link:active {
     background-color: var(--bck-2-act);
 }
+a.link::before {
+    content: "";
+    margin-left: 5px;
+    font-family: myIcon;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
 p.exampleBody {
     float: right;
     width: calc(100% - 30px);
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 0.875rem;
 }
 .showLink {
@@ -378,7 +390,7 @@ p.exampleBody {
     left: 10px;
     bottom: 10px;
     float: left;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     cursor: pointer;
     color: var(--cl-1-bck-hov);
 }
@@ -402,7 +414,7 @@ a.certificate, a.certificate:link, a.certificate:visited {
 a.certificate:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.link::before, a.certificate::after {
+a.certificate::after {
     content: "";
     margin-left: 5px;
     font-family: myIcon;

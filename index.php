@@ -1,7 +1,5 @@
 <?php
-$version = "3.1.7";
-$mobile = "09158955030";
-$email = "pspipm27@gmail.com";
+$version = "3.1.8";
 
 if (isset($_GET["en"]))
     require "lang/en.php";

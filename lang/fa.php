@@ -34,31 +34,31 @@
     <address class="info">
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">متولد 1381 (22 سال)</span>
+            <span class="text">متولد ۱۳۸۱ (۲۲ سال)</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">6 سال سابقه کار تخصصی</span>
+            <span class="text">۶ سال سابقه کار تخصصی</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text"><?php echo $mobile; ?></span>
+            <span class="text">۰۹۱۵۸۹۵۵۰۳۰</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text"><?php echo $email; ?></span>
+            <span class="text">pspipm27@gmail.com</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
             <span class="text">خراسان رضوی - مشهد</span>
         </div>
         <div class="socials">
-            <a class="socialItem" href="tel:<?php echo $mobile; ?>" title="Mobile"></a>
-            <a class="socialItem" href="mailto:<?php echo $email; ?>" title="Email"></a>
+            <a class="socialItem" href="tel:+989158955030" title="Mobile"></a>
+            <a class="socialItem" href="mailto:pspipm27@gmail.com" title="Email"></a>
             <a class="socialItem" href="https://linkedin.com/in/mohammad-pourbehzad" title="LinkedIn" target="_blank"></a>
             <a class="socialItem" href="https://github.com/mohammad-prb" title="Github" target="_blank"></a>
             <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram" target="_blank"></a>
-            <a class="socialItem" href="https://wa.me/<?php echo $mobile; ?>" title="WhatsApp" target="_blank"></a>
+            <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp" target="_blank"></a>
             <a class="socialItem" href="https://instagram.com/mammad.prb" title="Instagram" target="_blank"></a>
         </div>
     </address>
@@ -72,7 +72,7 @@
             </h3>
             <div class="boxContent">
                 <p>
-                    برنامه نویس Full-stack طراح وب با بیش از 6 سال کار تخصصی برنامه نویسی.
+                    برنامه نویس Full-stack طراح وب با بیش از ۶ سال کار تخصصی برنامه نویسی.
                     توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب.
                     متخصص در زمینه پیاده‌سازی، نصب، تست و نگهداری سیستم‌های وب. دارای مجموعه‌ای متنوع از مهارت‌های برنامه نویسی در زمینه Back-end و Front-end
                     با توانایی انجام پروژه به صورت تکی و همکاری گروهی.
@@ -140,8 +140,8 @@
                 <img class="uniLogo" src="img/university.png" alt="دانشگاه آزاد اسلامی"/>
                 <div class="uniInfo">
                     <div class="uniInfoItem">کارشناسی مهندسی کامپیوتر</div>
-                    <div class="uniInfoItem">دانشگاه آزاد اسلامی (1399 - 1403)</div>
-                    <div class="uniInfoItem">معدل: 18.82</div>
+                    <div class="uniInfoItem">دانشگاه آزاد اسلامی (۱۳۹۹ - ۱۴۰۳)</div>
+                    <div class="uniInfoItem">معدل: ۱۸.۸۲</div>
                 </div>
             </div>
         </div>
@@ -155,20 +155,20 @@
             <div class="line"></div>
             <div class="jobItem">
                 <h4 class="jobTitle">برنامه نویس Full-stack</h4>
-                <div class="time">تیر 1401 تا تیر 1403</div>
+                <div class="time">تیر ۱۴۰۱ تا تیر ۱۴۰۳</div>
                 <div class="company">گروه برنامه نویسی اوریوتِک (مشهد)</div>
                 <p class="description">طراحی و پیاده سازی قسمت Front-end و Back-end انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
             </div>
             <div class="jobItem">
                 <h4 class="jobTitle">تدریس در دانشگاه</h4>
-                <div class="time">دی 1401 تا تیر 1402</div>
+                <div class="time">دی ۱۴۰۱ تا تیر ۱۴۰۲</div>
                 <div class="company">دانشگاه آزاد اسلامی (مشهد)</div>
-                <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی 1402-1401 دانشگاه آزاد اسلامی مشهد.</p>
+                <p class="description">برگزاری کلاس های درس نظریه زبان ها و ماشین ها مقطع کارشناسی زیر نظر دکتر حلمی در نیمسال دوم سال تحصیلی ۱۴۰۲-۱۴۰۱ دانشگاه آزاد اسلامی مشهد.</p>
                 <a class="certificate" href="file/mohammad-pourbehzad.pdf">Certificate</a>
             </div>
             <div class="jobItem">
                 <h4 class="jobTitle">توسعه دهنده وب</h4>
-                <div class="time">تیر 1397 تا خرداد 1401</div>
+                <div class="time">تیر ۱۳۹۷ تا خرداد ۱۴۰۱</div>
                 <div class="company">توسعه فناوری های بینش پویان آویژگان (مشهد)</div>
                 <p class="description">طراحی و پیاده سازی قسمت Front-end و Back-end انواع وبسایت های فروشگاهی، شخصی، آموزشگاهی، سازمانی و...</p>
             </div>
@@ -217,7 +217,7 @@
                         <a class="link" href="https://www.narkh.ir/" target="_blank">بنیاد حفظ آثار و نشر ارزش های دفاع مقدس</a>
                         <p class="exampleBody">
                             اداره کل حفظ آثار و نشر ارزش های دفاع مقدس خراسان رضوی
-                            به موجب فرمان مقام معظم فرماندهی کل قوا و شرح وظایف ستاد کل نیروهای مسلح در سال 1369 تاسیس شده
+                            به موجب فرمان مقام معظم فرماندهی کل قوا و شرح وظایف ستاد کل نیروهای مسلح در سال ۱۳۶۹ تاسیس شده
                             و درجهت ارزش های دفاع مقدس فعالیت می کند.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
@@ -225,7 +225,7 @@
                     <div class="example">
                         <a class="link" href="https://www.mihm.ir/" target="_blank">مجمع اسلامی حبل‌الله</a>
                         <p class="exampleBody">
-                            مجمع اسلامی حبل‌الله مشهد، یک تشکل مردمی است که در اواخر سال 1392 آغاز به فعالیت کرده است
+                            مجمع اسلامی حبل‌الله مشهد، یک تشکل مردمی است که در اواخر سال ۱۳۹۲ آغاز به فعالیت کرده است
                             و فعالیت های خود را حول محور همگرایی امت اسلامی انجام می دهد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
