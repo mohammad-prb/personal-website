@@ -203,6 +203,9 @@ img.otherSocialImage {
 }
 /* Main */
 .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     float: left;
     width: calc(100% - 340px);
     padding: 20px;
@@ -211,7 +214,6 @@ img.otherSocialImage {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    margin-bottom: 20px;
 }
 .box {
     float: right;
@@ -292,7 +294,6 @@ img.uniLogo {
 }
 .jobs, .projects {
     width: 100%;
-    margin-bottom: 20px;
 }
 .line {
     position: absolute;
@@ -380,6 +381,7 @@ h4.projectTitle {
     font-weight: bold;
 }
 a.projectLink, a.projectLink:link, a.projectLink:visited {
+    flex-shrink: 1;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -461,7 +463,7 @@ p.exampleBody {
 }
 a.certificate, a.certificate:link, a.certificate:visited {
     float: right;
-    padding: 6px 10px 4px;
+    padding: 6px 13px 4px 10px;
     margin: 10px 0 0 10px;
     border-radius: var(--rds-2);
     font-size: 0.875rem;
@@ -470,11 +472,20 @@ a.certificate, a.certificate:link, a.certificate:visited {
 a.certificate:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.certificate::after {
+a.certificate::before {
     content: "";
-    margin-left: 5px;
+    margin-right: 3px;
     font-family: myIcon;
     vertical-align: middle;
+}
+.source {
+    display: flex;
+    gap: 5px;
+    margin: 0 10px;
+}
+h4.sourceTitle {
+    flex-shrink: 0;
+    margin: 0;
 }
 /* Desktop */
 @media only screen and (min-width: 800px) {

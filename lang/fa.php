@@ -24,7 +24,7 @@
     <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);" target="_self">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <a class="lang" href="index.php?en" target="_self">
+    <a class="lang" href="?en" target="_self">
         <span class="icon"></span>
         <span class="text">EN</span>
     </a>
@@ -64,17 +64,17 @@
             </div>
         </div>
         <div class="otherSocial">
-            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
+            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad" title="Stackoverflow account">
                 <img class="otherSocialImage" src="img/stackoverflow.png" alt="stackoverflow account"/>
             </a>
-            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb">
-                <img class="otherSocialImage" src="img/npm.png" alt="npm account"/>
+            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb" title="NPM account">
+                <img class="otherSocialImage" src="img/npm.png" alt="NPM account"/>
             </a>
-            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/">
-                <img class="otherSocialImage" src="img/pypi.png" alt="pypi account"/>
+            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/" title="PyPI account">
+                <img class="otherSocialImage" src="img/pypi.png" alt="PyPI account"/>
             </a>
-            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/">
-                <img class="otherSocialImage" src="img/packagist.png" alt="packagist account"/>
+            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/" title="Packagist account">
+                <img class="otherSocialImage" src="img/packagist.png" alt="Packagist account"/>
             </a>
         </div>
     </address>
@@ -109,8 +109,8 @@
                 <div class="skill">MySQL</div>
                 <div class="skill">Vue/Nuxt</div>
                 <div class="skill">React/Next</div>
-                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">jQuery</div>
+                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">TailwindCSS</div>
                 <div class="skill">SASS</div>
                 <div class="skill">HTML/CSS</div>
@@ -388,6 +388,10 @@
                 </p>
             </div>
         </div>
+    </div>
+    <div class="source">
+        <h4 class="sourceTitle">سورس کد این رزومه:</h4>
+        <a class="projectLink" href="https://github.com/mohammad-prb/personal-website">https://github.com/mohammad-prb/personal-website</a>
     </div>
 </div>
 </body>

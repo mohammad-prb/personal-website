@@ -88,4 +88,7 @@
     .examples {
         grid-template-columns: 1fr;
     }
+    .source {
+        margin: 0 20px;
+    }
 }

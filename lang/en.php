@@ -25,7 +25,7 @@
     <a class="changetThemeBtn" onclick="changeTheme();" href="javascript:void(0);" target="_self">
         <script>document.write(localStorage.getItem("theme") === "light" ? "" : "");</script>
     </a>
-    <a class="lang" href="index.php" target="_self">
+    <a class="lang" href="?fa" target="_self">
         <span class="icon"></span>
         <span class="text">FA</span>
     </a>
@@ -65,17 +65,17 @@
             </div>
         </div>
         <div class="otherSocial">
-            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad">
+            <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad" title="Stackoverflow account">
                 <img class="otherSocialImage" src="img/stackoverflow.png" alt="stackoverflow account"/>
             </a>
-            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb">
-                <img class="otherSocialImage" src="img/npm.png" alt="npm account"/>
+            <a class="otherSocialItem" href="https://www.npmjs.com/~mohammad.prb" title="NPM account">
+                <img class="otherSocialImage" src="img/npm.png" alt="NPM account"/>
             </a>
-            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/">
-                <img class="otherSocialImage" src="img/pypi.png" alt="pypi account"/>
+            <a class="otherSocialItem" href="https://pypi.org/user/mohammad-prb/" title="PyPI account">
+                <img class="otherSocialImage" src="img/pypi.png" alt="PyPI account"/>
             </a>
-            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/">
-                <img class="otherSocialImage" src="img/packagist.png" alt="packagist account"/>
+            <a class="otherSocialItem" href="https://packagist.org/packages/mohammad-prb/" title="Packagist account">
+                <img class="otherSocialImage" src="img/packagist.png" alt="Packagist account"/>
             </a>
         </div>
     </address>
@@ -89,12 +89,11 @@
             </h3>
             <div class="boxContent">
                 <p>
-                    Full-stack web developer with more than 6 years of specialized programming work.
-                    Web developer with experience and skills in all stages of advanced web development.
+                    Full-stack web developer with over 6 years of programming experience.
+                    Web developer with experience and skills in all stages of advanced web development. Expert in implementing, installing, testing, and maintaining web systems.
                 </p>
                 <p>
-                    Expert in designing, installing, testing and maintaining web systems.
-                    Skilled in the fields of Back-end and Front-end with the ability to carry out projects individually and as a group.
+                    Has a diverse set of back-end and front-end programming skills with the ability to complete projects individually and in a team.
                 </p>
             </div>
         </div>
@@ -110,8 +109,8 @@
                 <div class="skill">MySQL</div>
                 <div class="skill">Vue/Nuxt</div>
                 <div class="skill">React/Next</div>
-                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">jQuery</div>
+                <div class="skill">JavaScript/TypeScript</div>
                 <div class="skill">TailwindCSS</div>
                 <div class="skill">SASS</div>
                 <div class="skill">HTML/CSS</div>
@@ -169,7 +168,7 @@
                 <h4 class="jobTitle">Full-stack developer</h4>
                 <div class="time">Jun 2022 - Mar 2024</div>
                 <div class="company">OrioTech (Mashhad)</div>
-                <p class="description">Front-end and back-end development of all kinds of store, personal, educational, organizational, etc.</p>
+                <p class="description">Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.</p>
             </div>
             <div class="jobItem">
                 <h4 class="jobTitle">Teaching at the university</h4>
@@ -182,7 +181,7 @@
                 <h4 class="jobTitle">Web developer</h4>
                 <div class="time">Jun 2018 - Jun 2022</div>
                 <div class="company">Avizhgan (Mashhad)</div>
-                <p class="description">Front-end and back-end development of all kinds of store, personal, educational, organizational, etc.</p>
+                <p class="description">Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.</p>
             </div>
         </div>
     </div>
@@ -243,15 +242,15 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.faridakhondi.ir/">Zarsanj goldsmith school</a>
+                        <a class="link" href="https://www.faridakhondi.ir/">"Zarsanj" goldsmith school</a>
                         <p class="exampleBody">
-                            Zarsanj Mehr Khorasan Technical and Vocational School of Gold and Jewelry is equipped with a 17025 gold grading laboratory with the 2017 version from Iran's National Certification Center.
+                            "Zarsanj Mehr Khorasan" Technical and Vocational School of Gold and Jewelry is equipped with a 17025 gold grading laboratory with the 2017 version from Iran's National Certification Center.
                             ISO 9001:2015 certified in England and more.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.vlth.ir/">Scientific and cultural foundation of Valayat</a>
+                        <a class="link" href="https://www.vlth.ir/">Scientific and cultural foundation of "Valayat"</a>
                         <p class="exampleBody">
                             Scientific and Cultural Foundation "Velayat" with the aim of training committed human resources.
                             Economic development, provision of social and cultural services and expansion of international activities carry out many activities.
@@ -259,9 +258,9 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.poosheshmobl.ir/">Poosheshmobl Mashhad</a>
+                        <a class="link" href="https://www.poosheshmobl.ir/">"Poosheshmobl Mashhad"</a>
                         <p class="exampleBody">
-                            Poosheshmobl Mashhad, production and sewing workshop of all kinds of sofa covers and more.
+                            "Poosheshmobl Mashhad", production and sewing workshop of all kinds of sofa covers and more.
                             It is in the form of fabric and talki in Mashhad with more than half a century of experience and professional activity in this field.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
@@ -275,9 +274,9 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.mihm.ir/">Hubalullah Islamic Foundation</a>
+                        <a class="link" href="https://www.mihm.ir/">"Hubalullah" Islamic Foundation</a>
                         <p class="exampleBody">
-                            Habalullah Islamic Assembly of Mashhad is a people's organization that started its activities at the end of 2012.
+                            "Habalullah" Islamic Assembly of Mashhad is a people's organization that started its activities at the end of 2012.
                             and performs its activities around the convergence of the Islamic nation.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
@@ -294,7 +293,7 @@
                 </p>
                 <div class="examples">
                     <div class="example">
-                        <a class="link" href="https://www.dikala.ir/">Dikala store</a>
+                        <a class="link" href="https://www.dikala.ir/">"Dikala" store</a>
                         <p class="exampleBody">
                             "Dikala" store is a supplier of all kinds of quality digital products
                             it includes all kinds of mobile phones, smart watches, game consoles, Airpods, headsets, printers and accessories.
@@ -302,37 +301,37 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.rayehemanshop.ir/">Rayeheman store</a>
+                        <a class="link" href="https://www.rayehemanshop.ir/">"Rayeheman" store</a>
                         <p class="exampleBody">
                             "Rayeheman" store is a producer and seller of all kinds of natural, special and therapeutic perfumes and oils.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.cheshmbartar.ir/">Cheshm bartar</a>
+                        <a class="link" href="https://www.cheshmbartar.ir/">"Cheshm bartar" store</a>
                         <p class="exampleBody">
                             "Cheshm bartar" company produces all kinds of digital products, CCTV cameras, burglar alarms, network equipment, automatic doors, tracking equipment, etc.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.honardouz.ir/">Valiasr Digital Art Center</a>
+                        <a class="link" href="https://www.honardouz.ir/">"Valiasr" Digital Art Center</a>
                         <p class="exampleBody">
-                            Valiasr Digital Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc.
+                            "Valiasr" Digital Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.romaatoys.com/">Romatoys store</a>
+                        <a class="link" href="https://www.romaatoys.com/">"Romatoys" store</a>
                         <p class="exampleBody">
-                            Romatoys store is a producer and seller of all kinds of original action figures, etc. which provides its services in rial, dollar and cryptocurrency.
+                            "Romatoys" store is a producer and seller of all kinds of original action figures, etc. which provides its services in rial, dollar and cryptocurrency.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                     <div class="example">
-                        <a class="link" href="https://www.sahour.ir/">Sahour store</a>
+                        <a class="link" href="https://www.sahour.ir/">"Sahour" store</a>
                         <p class="exampleBody">
-                            Sahour cashmere store is a producer and seller of all kinds of cashmere, rugs, tablecloths, velvet, etc.
+                            "Sahour" cashmere store is a producer and seller of all kinds of cashmere, rugs, tablecloths, velvet, etc.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
@@ -387,6 +386,10 @@
                 </p>
             </div>
         </div>
+    </div>
+    <div class="source">
+        <h4 class="sourceTitle">Source code of this resume:</h4>
+        <a class="projectLink" href="https://github.com/mohammad-prb/personal-website">https://github.com/mohammad-prb/personal-website</a>
     </div>
 </div>
 </body>
