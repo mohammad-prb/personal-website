@@ -1,6 +1,11 @@
 @font-face {
     font-family: "persianFont";
-    src: url("../fonts/dana-regular.woff2");
+    src: url("../fonts/iranyekanwebregular.woff2");
+}
+@font-face {
+    font-family: "persianFont";
+    src: url("../fonts/iranyekanwebbold.woff2");
+    font-weight: bold;
 }
 @font-face {
     font-family: "englishFont";
@@ -15,7 +20,6 @@
     font-family: "myIcon";
     src: url("../fonts/bootstrap-icons.woff");
 }
-
 @font-face {
     font-family: "codeFont";
     src: url("../fonts/jet-brains-mono-medium.woff2");
@@ -253,14 +257,14 @@ h3.boxTitle > span.icon {
 }
 strong.softSkill {
     float: right;
-    width: 100px;
+    width: 106px;
     margin-left: 10px;
     text-align: left;
     font-weight: normal;
 }
 .range {
     float: left;
-    width: calc(100% - 110px);
+    width: calc(100% - 116px);
     height: 8px;
     margin-top: 10px;
     border-radius: 4px;
