@@ -293,6 +293,13 @@
                 </p>
                 <div class="examples">
                     <div class="example">
+                        <a class="link" href="https://glengold.org/">"Glen" gold store</a>
+                        <p class="exampleBody">
+                            "Glen" Store, with over 16 years of experience, designs, manufactures, and supplies a variety of gold artifacts in an attractive and different style.
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">Show</div>
+                    </div>
+                    <div class="example">
                         <a class="link" href="https://www.dikala.ir/">"Dikala" store</a>
                         <p class="exampleBody">
                             "Dikala" store is a supplier of all kinds of quality digital products
@@ -318,13 +325,6 @@
                         <a class="link" href="https://www.honardouz.ir/">"Valiasr" Digital Art Center</a>
                         <p class="exampleBody">
                             "Valiasr" Digital Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc.
-                        </p>
-                        <div class="showLink" onclick="clickLink(this);">Show</div>
-                    </div>
-                    <div class="example">
-                        <a class="link" href="https://www.romaatoys.com/">"Romatoys" store</a>
-                        <p class="exampleBody">
-                            "Romatoys" store is a producer and seller of all kinds of original action figures, etc. which provides its services in rial, dollar and cryptocurrency.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>

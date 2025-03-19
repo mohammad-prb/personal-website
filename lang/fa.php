@@ -294,6 +294,13 @@
                 </p>
                 <div class="examples">
                     <div class="example">
+                        <a class="link" href="https://glengold.org/">طلا فروشی گلن</a>
+                        <p class="exampleBody">
+                            فروشگاه گلن با بیش از ۱۶ سال سابقه، طراح، تولید کننده و عرضه‌کننده انواع مصنوعات طلا به سبکی جذاب و متفاوت است.
+                        </p>
+                        <div class="showLink" onclick="clickLink(this);">مشاهده</div>
+                    </div>
+                    <div class="example">
                         <a class="link" href="https://www.dikala.ir/">فروشگاه دی کالا</a>
                         <p class="exampleBody">
                             فروشگاه دی کالا عرضه کننده انواع محصولات دیجیتال با کیفیت
@@ -319,13 +326,6 @@
                         <a class="link" href="https://www.honardouz.ir/">هنرکده دیجیتال ولیعصر</a>
                         <p class="exampleBody">
                             هنرکده دیجیتال ولیعصر توليد كننده انواع تابلوهای گلدوزی شده مثل تابلوهای آویز، اسماء، قرآنی و... ميباشد.
-                        </p>
-                        <div class="showLink" onclick="clickLink(this);">مشاهده</div>
-                    </div>
-                    <div class="example">
-                        <a class="link" href="https://www.romaatoys.com/">فروشگاه روماتویز</a>
-                        <p class="exampleBody">
-                            فروشگاه روماتویز توليد كننده و فروشنده انواع اکشن فیگور های اورجینال و... ميباشد که خدمات خود را بصورت ریالی، دلاری و رمزارزی انجام می دهد.
                         </p>
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
