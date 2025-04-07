@@ -34,11 +34,11 @@
     <address class="info">
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">متولد ۱۳۸۱ (۲۲ سال)</span>
+            <span class="text">متولد ۱۳۸۱ (۲۳ سال)</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">۶ سال سابقه کار تخصصی</span>
+            <span class="text">۷ سال سابقه کار تخصصی</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
@@ -88,7 +88,7 @@
             </h3>
             <div class="boxContent">
                 <p>
-                    برنامه نویس Full-stack طراح وب با بیش از ۶ سال کار تخصصی برنامه نویسی.
+                    برنامه نویس Full-stack طراح وب با بیش از ۷ سال کار تخصصی برنامه نویسی.
                     توسعه دهنده وب با تجربه و مهارت در تمام مراحل توسعه پیشرفته وب.
                 </p>
                 <p>
@@ -231,6 +231,26 @@
                         <div class="showLink" onclick="clickLink(this);">مشاهده</div>
                     </div>
                 </div>
+            </div>
+            <div class="projectItem">
+                <h4 class="projectTitle">
+                    <span class="icon"></span>پکیج js-flash برای npm
+                </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">لینک:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/js-flash">https://github.com/mohammad-prb/js-flash</a>
+                </div>
+                <p class="description">
+                    پیاده‌سازی پکیج رسمی js-flash برای نمایش پیام‌های فلش (Flash messege) مشابه toast و sonner در پروژه های جاواسکریپت.
+                </p>
+                <p class="description">
+                    این پکیج امکان استفاده در فریم‌ورک‌های جاواسکریپت مانند Vue، React، Angular و... را دارد.
+                    علاوه بر این امکان استفاده در پروژه‌های جاواسکریپت Pure هم وجود دارد.
+                </p>
+                <p class="description">
+                    این پکیج با استفاده از تایپ‌اسکریپت نوشته شده تا کارایی بهتری داشته باشد.
+                    تمام داکیومنت این پکیج به همراه راهنمای استفاده و... در صفحه گیت‌هاب پروژه (لینک پروژه) قابل مشاهده است.
+                </p>
             </div>
             <div class="projectItem">
                 <h4 class="projectTitle">

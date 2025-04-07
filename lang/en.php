@@ -35,11 +35,11 @@
     <address class="info">
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">22 years old</span>
+            <span class="text">23 years old</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
-            <span class="text">6 years of work experience</span>
+            <span class="text">7 years of work experience</span>
         </div>
         <div class="infoItem">
             <span class="icon"></span>
@@ -89,7 +89,7 @@
             </h3>
             <div class="boxContent">
                 <p>
-                    Full-stack web developer with over 6 years of programming experience.
+                    Full-stack web developer with over 7 years of programming experience.
                     Web developer with experience and skills in all stages of advanced web development. Expert in implementing, installing, testing, and maintaining web systems.
                 </p>
                 <p>
@@ -231,6 +231,26 @@
                         <div class="showLink" onclick="clickLink(this);">Show</div>
                     </div>
                 </div>
+            </div>
+            <div class="projectItem">
+                <h4 class="projectTitle">
+                    <span class="icon"></span>js-flash package (npm)
+                </h4>
+                <div class="projectLinkBox">
+                    <div class="projectLinkTitle">Link:</div>
+                    <a class="projectLink" href="https://github.com/mohammad-prb/js-flash">https://github.com/mohammad-prb/js-flash</a>
+                </div>
+                <p class="description">
+                    Implementing the official "js-flash" package to display Flash messages similar to "toast" and "sonner" in JavaScript projects.
+                </p>
+                <p class="description">
+                    This package can be used in JavaScript frameworks such as Vue, React, Angular, etc.
+                    Also, it can be used in Pure JavaScript projects.
+                </p>
+                <p class="description">
+                    This package is written by TypeScript for better performance.
+                    All documentation for this package, along with usage instructions, can be found on the project's GitHub page (project link).
+                </p>
             </div>
             <div class="projectItem">
                 <h4 class="projectTitle">
