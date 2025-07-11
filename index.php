@@ -47,7 +47,7 @@ $content = json_decode($file);
             <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
         </svg>
     </a>
-    <a class="lang icon" href="<?php echo $lang == 'fa' ? '?en' : ''; ?>" target="_self">
+    <a class="lang icon" href="<?php echo $lang == 'fa' ? '?en' : '?fa'; ?>" target="_self">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe">
             <circle cx="12" cy="12" r="10"/>
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
@@ -123,9 +123,17 @@ $content = json_decode($file);
                         <path d="M9 18c-4.51 2-5-2-7-2"/>
                     </svg>
                 </a>
-                <!--                <a class="socialItem" href="https://t.me/Mohammad_prb" title="Telegram"></a>-->
-                <!--                <a class="socialItem" href="https://wa.me/+989158955030" title="WhatsApp"></a>-->
             </div>
+        </div>
+        <div class="messageSocial">
+            <a class="messageSocialItem" href="https://t.me/Mohammad_prb">
+                <img src="img/telegram.png" alt="Telegram" class="messageSocialImage"/>
+                <span>Telegram message</span>
+            </a>
+            <a class="messageSocialItem" href="https://wa.me/+989158955030">
+                <img src="img/whatsapp.png" alt="WhatsApp" class="messageSocialImage"/>
+                <span>WhatsApp message</span>
+            </a>
         </div>
         <div class="otherSocial">
             <a class="otherSocialItem" href="https://stackoverflow.com/users/15959505/mohammad-pourbehzad" title="Stackoverflow account">

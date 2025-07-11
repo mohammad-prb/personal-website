@@ -179,6 +179,35 @@ img.otherSocialImage {
     width: 100%;
     border-radius: var(--rds-1);
 }
+.messageSocial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+a.messageSocialItem, a.messageSocialItem:link, a.messageSocialItem:visited {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 190px;
+    padding: 12px;
+    font-family: englishFont;
+    border-radius: var(--rds-2);
+    background-color: var(--bck-2);
+    color: var(--cl-1-txt);
+}
+a.messageSocialItem:hover {
+    background-color: var(--bck-2-hov);
+}
+a.messageSocialItem:active {
+    transition: none;
+    background-color: var(--bck-2-act);
+}
+img.messageSocialImage {
+    width: 30px;
+}
 /* Main */
 .main {
     display: flex;
@@ -428,6 +457,7 @@ a.link:active {
 }
 p.exampleBody {
     display: flex;
+    flex-grow: 1;
     padding: 0 5px;
     font-size: 0.875rem;
 }
