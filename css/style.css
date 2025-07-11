@@ -17,10 +17,6 @@
     font-weight: bold;
 }
 @font-face {
-    font-family: "myIcon";
-    src: url("../fonts/bootstrap-icons.woff");
-}
-@font-face {
     font-family: "codeFont";
     src: url("../fonts/jet-brains-mono-medium.woff2");
 }
@@ -35,39 +31,36 @@ html {
 body {
     display: flex;
     width: 100%;
-    min-width: 320px;
     max-width: 2000px;
     margin: auto;
     padding: 0;
-    font-family: persianFont;
     font-size: 1rem;
 }
+body.fa {
+    font-family: persianFont;
+}
+body.en {
+    font-family: englishFont;
+    line-height: 1.5;
+}
 a, a:link, a:visited {
+    display: block;
     color: var(--txt-1);
     text-decoration: none;
 }
-span.icon {
-    display: inline-block;
-    font-family: myIcon;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-span.text {
-    display: inline-block;
-    vertical-align: middle;
-}
 p {
     float: right;
-    width: 100%;
     margin: 0;
 }
-select {
-    float: left;
-    width: 92px;
-    padding: 5px 10px;
-    font-family: persianFont;
-    border-radius: var(--rds-2);
-    background-color: var(--bck-1);
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 /* Menu */
 .menu {
@@ -86,7 +79,6 @@ a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     padding: 10px;
     border-radius: 50%;
     text-align: center;
-    font-family: myIcon;
 }
 a.lang, a.lang:link, a.lang:visited {
     position: absolute;
@@ -95,14 +87,11 @@ a.lang, a.lang:link, a.lang:visited {
     padding: 7px 10px;
     direction: ltr;
 }
-a.lang > span.icon {
-    margin: 0;
-}
-a.lang > span.text {
-    margin-top: 5px;
+a.lang > span {
+    margin-top: 3px;
 }
 img.mainImage {
-    float: right;
+    display: block;
     width: calc(100% - 110px);
     margin: 30px 30px 15px;
     border: 10px solid var(--bck-1);
@@ -110,62 +99,48 @@ img.mainImage {
     border-radius: 50%;
 }
 h1.name {
-    float: right;
-    width: 100%;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
     text-align: center;
 }
 h2.title {
-    float: right;
-    width: 100%;
     padding: 15px 0;
-    margin: 15px 0;
+    margin: 20px 0;
     font-size: 1.25rem;
     text-align: center;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
 }
 address.info {
-    float: right;
-    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     padding: 0 20px;
     font-style: normal;
 }
 .infoItem {
     display: flex;
     align-items: center;
-    float: right;
-    width: 100%;
-    margin: 5px 0;
+    gap: 8px;
 }
 .socials {
-    float: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    margin: 25px 0;
+    margin: 12px 0;
 }
 .socialsWrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    width: 100%;
     max-width: 270px;
 }
 a.socialItem, a.socialItem:link, a.socialItem:visited {
-    display: block;
-    width: 30px;
-    height: 30px;
-    padding: 8px;
+    display: flex;
+    padding: 12px;
     border-radius: 50%;
-    text-align: center;
-    font-family: myIcon;
-    font-size: 1.25rem;
-    line-height: 1.5;
     background-color: var(--bck-2);
     color: var(--cl-1-txt);
 }
@@ -177,19 +152,16 @@ a.socialItem:active {
     background-color: var(--bck-2-act);
 }
 .otherSocial {
-    float: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    width: 100%;
     padding: 25px 0;
     border-top: 1px solid var(--bck-2);
 }
 a.otherSocialItem, a.otherSocialItem:link, a.otherSocialItem:visited {
-    display: block;
+    display: flex;
     width: 30px;
-    height: 30px;
     padding: 8px;
     border-radius: var(--rds-2);
     background-color: var(--bck-2);
@@ -220,26 +192,23 @@ img.otherSocialImage {
     gap: 20px;
 }
 .box {
-    float: right;
-    padding: 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
     border-radius: var(--rds-3);
     background-color: var(--bck-1-hov);
 }
 h3.boxTitle {
-    float: right;
-    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    gap: 8px;
     padding: 10px 20px;
     margin: 0;
     color: var(--cl-1-bck-hov);
     background-color: var(--cl-1-bck-gls);
 }
-h3.boxTitle > span.icon {
-    font-weight: normal;
-}
 .boxContent {
     position: relative;
-    float: right;
-    width: calc(100% - 32px);
     margin: 16px;
 }
 .skill {
@@ -247,49 +216,55 @@ h3.boxTitle > span.icon {
     margin: 5px;
     padding: 6px 10px 4px;
     font-family: codeFont;
+    font-weight: normal;
     border-radius: var(--rds-2);
     background-color: var(--bck-1-act);
 }
 .softSkillItem {
-    float: right;
-    width: 100%;
-    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
 }
 strong.softSkill {
     float: right;
     width: 106px;
-    margin-left: 10px;
     text-align: left;
     font-weight: normal;
 }
+.fa strong.softSkill {
+    text-align: left;
+}
+.en strong.softSkill {
+    text-align: right;
+}
 .range {
-    float: left;
-    width: calc(100% - 116px);
+    display: flex;
+    width: 100%;
     height: 8px;
-    margin-top: 10px;
     border-radius: 4px;
     background-color: var(--bck-1-act);
 }
 .range > span {
-    float: right;
     height: 8px;
     border-radius: 4px;
     background-color: var(--cl-1-bck-act);
 }
+.university {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 img.uniLogo {
-    float: right;
     width: 60px;
     margin: 10px;
 }
 .uniInfo {
-    float: right;
-    width: calc(100% - 100px);
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .uniInfoItem {
-    float: right;
-    width: 100%;
-    margin: 8px 0;
     font-size: 0.875rem;
 }
 .uniInfoItem:first-child {
@@ -302,18 +277,24 @@ img.uniLogo {
 .line {
     position: absolute;
     top: 8px;
-    right: 20px;
+    inset-inline-start: 20px;
     width: 3px;
     height: calc(100% - 16px);
     border-radius: 2px;
     background-color: var(--cl-1-bck);
 }
+.jobs {
+    display: flex;
+    flex-direction: column;
+}
 .jobItem {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     position: relative;
-    float: right;
-    width: calc(100% - 60px);
-    margin: 0 50px 0 10px;
     padding: 20px 0;
+    margin: 0 10px;
+    margin-inline-start: 50px;
     border-bottom: 1px solid var(--brd-1);
 }
 .jobItem:last-child {
@@ -323,30 +304,27 @@ img.uniLogo {
     content: "";
     position: absolute;
     top: 28px;
-    right: -34px;
+    inset-inline-start: -34px;
     width: 11px;
     height: 11px;
     border-radius: 50%;
     background-color: var(--cl-1-bck);
 }
+.jobHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 h4.jobTitle {
-    float: right;
-    width: calc(100% - 200px);
     margin: 0;
     font-size: 1.125rem;
     color: var(--cl-1-bck-hov);
 }
 .time {
-    float: left;
-    width: 200px;
-    margin-top: 5px;
     font-size: 0.875rem;
-    text-align: left;
     color: var(--txt-2);
 }
 .company {
-    float: left;
-    width: 100%;
     margin: 10px 0;
 }
 p.description {
@@ -354,8 +332,8 @@ p.description {
     color: var(--txt-2);
 }
 .projectItem {
-    float: right;
-    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
     padding: 20px 10px;
     border-bottom: 1px solid var(--brd-1);
 }
@@ -363,8 +341,9 @@ p.description {
     border: 0;
 }
 h4.projectTitle {
-    float: right;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin: 0 0 10px 0;
     font-size: 1.125rem;
     color: var(--cl-1-bck-hov);
@@ -399,24 +378,21 @@ a.projectLink:active {
     color: var(--cl-1-bck);
 }
 .examples {
-    float: right;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     margin: 15px 0;
 }
 .example {
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
     border-radius: var(--rds-3);
     background-color: var(--bck-1-act);
 }
 a.link, a.link:link, a.link:visited {
-    float: right;
-    width: calc(100% - 44px);
     padding: 10px 10px;
-    margin: 12px;
     font-size: 0.875rem;
     font-weight: bold;
     white-space: nowrap;
@@ -432,26 +408,17 @@ a.link:hover {
 a.link:active {
     color: var(--cl-1-bck-act);
 }
-a.link::before {
-    content: "";
-    margin-left: 5px;
-    font-family: myIcon;
-    font-size: 1.25rem;
-    vertical-align: middle;
-}
 p.exampleBody {
-    float: right;
-    width: calc(100% - 30px);
-    padding: 0 15px 15px;
-    margin-bottom: 30px;
+    display: flex;
+    padding: 0 5px;
     font-size: 0.875rem;
-    text-align: right;
 }
 .showLink {
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-    float: left;
+    display: flex;
+    align-items: center;
+    align-self: end;
+    gap: 4px;
+    margin: 0 5px;
     font-size: 0.875rem;
     cursor: pointer;
     color: var(--cl-1-bck-hov);
@@ -459,14 +426,7 @@ p.exampleBody {
 .showLink:hover {
     color: var(--cl-1-bck);
 }
-.showLink::after {
-    content: "";
-    margin-right: 3px;
-    font-family: myIcon;
-    vertical-align: middle;
-}
 a.certificate, a.certificate:link, a.certificate:visited {
-    float: right;
     padding: 6px 13px 4px 10px;
     margin: 10px 0 0 10px;
     border-radius: var(--rds-2);
@@ -476,12 +436,6 @@ a.certificate, a.certificate:link, a.certificate:visited {
 a.certificate:hover {
     background-color: var(--cl-1-bck-act);
 }
-a.certificate::before {
-    content: "";
-    margin-right: 3px;
-    font-family: myIcon;
-    vertical-align: middle;
-}
 .source {
     display: flex;
     gap: 5px;
@@ -490,34 +444,4 @@ a.certificate::before {
 h4.sourceTitle {
     flex-shrink: 0;
     margin: 0;
-}
-/* Desktop */
-@media only screen and (min-width: 800px) {
-    *:not(.scroll)::-webkit-scrollbar {
-        width: 4px;
-        height: 100%;
-    }
-    *:not(.scroll)::-webkit-scrollbar-track {
-        background: var(--scroll-bck);
-        border-radius: var(--rds-1);
-    }
-    *:not(.scroll)::-webkit-scrollbar-thumb {
-        background: var(--scroll-tmb-bck);
-        border-radius: var(--rds-1);
-    }
-    *:not(.scroll)::-webkit-scrollbar-thumb:hover {
-        background: var(--scroll-tmb-bck-hov);
-    }
-    *:not(.scroll)::-webkit-scrollbar-thumb:active {
-        background: var(--scroll-tmb-bck-act);
-    }
-    body::-webkit-scrollbar {
-        width: 10px !important;
-    }
-    body::-webkit-scrollbar-track {
-        border-radius: 0 !important;
-    }
-    body::-webkit-scrollbar-thumb {
-        border-radius: 0 !important;
-    }
 }

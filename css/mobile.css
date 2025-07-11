@@ -18,9 +18,6 @@
     h1.name {
         font-size: 2rem;
     }
-    .socials {
-        margin: 30px 0;
-    }
     .main {
         width: 100%;
         padding: 20px 0;
@@ -29,61 +26,42 @@
         grid-template-columns: 1fr;
     }
     .box {
-        width: 100%;
         border-radius: 0;
     }
     .boxContent {
-        width: calc(100% - 40px);
         margin: 20px;
     }
     .softSkillItem {
-        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
+        padding: 8px 0;
     }
     strong.softSkill {
-        text-align: right;
-    }
-    .range {
-        width: 100%;
-        margin-top: 5px;
-    }
-    img.uniLogo {
-        width: 45px;
-    }
-    .uniInfo {
-        width: calc(100% - 85px);
-    }
-    .uniInfoItem {
-        margin: 5px 0;
+        width: auto;
     }
     .line {
-        right: 0;
+        inset-inline-start: 0;
     }
     .jobItem {
-        width: calc(100% - 20px);
-        margin: 0px 20px 0 0;
+        margin: 0;
+        margin-inline-start: 20px;
     }
     .jobItem::before {
-        right: -24px;
+        inset-inline-start: -24px;
     }
-    h4.jobTitle {
-        width: 100%;
-    }
-    .time {
-        width: 100%;
-        text-align: right;
-        margin-top: 10px;
+    .jobHeader {
+        flex-direction: column;
+        align-items: start;
+        gap: 4px;
     }
     .projectItem {
-        width: 100%;
         padding: 0 0 20px 0;
         margin-bottom: 20px;
     }
     .projectItem:last-child {
         margin: 0;
         padding: 0;
-    }
-    .projectItem p.description {
-        margin: 5px 0;
     }
     .examples {
         grid-template-columns: 1fr;
