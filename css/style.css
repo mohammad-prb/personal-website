@@ -57,11 +57,6 @@ p {
     flex-direction: column;
     gap: 8px;
 }
-.icon {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
 /* Menu */
 .menu {
     position: relative;
@@ -80,7 +75,16 @@ a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     border-radius: 50%;
     text-align: center;
 }
+a.changetThemeBtn svg {
+    display: none;
+}
+a.changetThemeBtn svg.active {
+    display: block;
+}
 a.lang, a.lang:link, a.lang:visited {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     position: absolute;
     top: 5px;
     left: 5px;
@@ -88,7 +92,7 @@ a.lang, a.lang:link, a.lang:visited {
     direction: ltr;
 }
 a.lang > span {
-    margin-top: 3px;
+    margin-top: 4px;
 }
 img.mainImage {
     display: block;
