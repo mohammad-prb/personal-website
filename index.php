@@ -266,16 +266,31 @@ $content = json_decode($file);
             <div class="jobs">
                 <?php
                 array_map(function ($item) {
+                    echo '<div class="jobItem">';
+
                     echo <<<HTML
-                        <div class="jobItem">
-                            <div class="jobHeader">
-                                <h4 class="jobTitle">$item->title</h4>
-                                <div class="time">$item->date</div>
-                            </div>
-                            <div class="company">$item->organ</div>
-                            <p class="description">$item->description</p>
+                        <div class="jobHeader">
+                            <h4 class="jobTitle">$item->title</h4>
+                            <div class="time">$item->date</div>
                         </div>
+                        <div class="company">$item->organ</div>
+                        <p class="description">$item->description</p>
                     HTML;
+
+                    if (!empty($item->certificate)) {
+                        echo <<<HTML
+                            <a class="certificate" href="$item->certificate">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-check2-icon lucide-file-check-2">
+                                    <path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"/>
+                                    <path d="M14 2v4a2 2 0 0 0 2 2h4"/>
+                                    <path d="m3 15 2 2 4-4"/>
+                                </svg>
+                                <span>Certificate</span>
+                            </a>
+                        HTML;
+                    }
+
+                    echo '</div>';
                 }, $content->experiences->items);
                 ?>
             </div>

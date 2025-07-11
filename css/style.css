@@ -69,8 +69,6 @@ a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     position: absolute;
     top: 5px;
     right: 5px;
-    width: 24px;
-    height: 24px;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -335,6 +333,22 @@ p.description {
     font-size: 0.875rem;
     color: var(--txt-2);
 }
+a.certificate, a.certificate:link, a.certificate:visited {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: start;
+    padding: 8px 12px;
+    margin: 10px 0 0;
+    border-radius: var(--rds-2);
+    font-family: englishFont;
+    font-size: 0.875rem;
+    background-color: var(--cl-1-bck-gls);
+}
+a.certificate:hover {
+    background-color: var(--cl-1-bck-act);
+}
 .projectItem {
     display: flex;
     flex-direction: column;
@@ -429,16 +443,6 @@ p.exampleBody {
 }
 .showLink:hover {
     color: var(--cl-1-bck);
-}
-a.certificate, a.certificate:link, a.certificate:visited {
-    padding: 6px 13px 4px 10px;
-    margin: 10px 0 0 10px;
-    border-radius: var(--rds-2);
-    font-size: 0.875rem;
-    background-color: var(--cl-1-bck-gls);
-}
-a.certificate:hover {
-    background-color: var(--cl-1-bck-act);
 }
 .source {
     display: flex;
