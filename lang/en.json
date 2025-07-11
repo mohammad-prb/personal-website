@@ -1,0 +1,194 @@
+{
+    "name": "Mohammad Pourbehzad",
+    "title": "Full-stack developer",
+    "age": "Born in 2002 (23 years old)",
+    "experience": "7 years of work experience",
+    "mobile": "+989158955030",
+    "location": "Iran - Mashhad",
+    "about": {
+        "title": "About me",
+        "texts": [
+            "Full-stack developer with over 7 years of specialized programming experience and collaboration on over 20 commercial and corporate projects.",
+            "Web developer with experience and skills in all stages of advanced web development.",
+            "Has a diverse set of back-end and front-end programming skills with the ability to complete projects individually and in a team."
+        ]
+    },
+    "skills": "Skills",
+    "softSkills": {
+        "title": "Soft skills",
+        "items": [
+            "Team work",
+            "Creativity",
+            "Precision",
+            "Learning"
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "description": "Bachelor's degree, Computer Engineering",
+        "university": "Islamic Azad University (2020 - 2024)",
+        "gpa": "GPA: 18.82"
+    },
+    "experiences": {
+        "title": "Work Experiences",
+        "items": [
+            {
+                "title": "Full-stack developer",
+                "organ": "OrioTech (Mashhad)",
+                "description": "Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.",
+                "date": "Jun 2022 - Mar 2024"
+            },
+            {
+                "title": "Teaching at the university",
+                "organ": "Islamic Azad University (Mashhad)",
+                "description": "Teaching The Theory of Formal Languages and Automata in Islamic Azad University under the supervision of Dr. Nona Helmi in the second semester of academic year 2023.",
+                "date": "Jan 2023 - Jul 2023"
+            },
+            {
+                "title": "Web developer",
+                "organ": "Avizhgan (Mashhad)",
+                "description": "Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.",
+                "date": "Jun 2018 - Jun 2022"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "linkTitle": "Link",
+        "showTitle": "Show",
+        "items": [
+            {
+                "title": "Countries provinces and cities",
+                "link": "https://github.com/mohammad-prb/provinces-and-cities",
+                "texts": [
+                    "Preparing a list of provinces and cities of countries (currently Iran and Germany) in JSON and MySQL for use in various projects and placement in the database.",
+                    "Also, implementing and publishing official packages of these lists for JavaScript, Python, and PHP to make this information easier to use.",
+                    "So far, this project and its packages have received a total of more than 70 stars on GitHub."
+                ],
+                "examples": [
+                    {
+                        "title": "JavaScript package",
+                        "link": "https://github.com/mohammad-prb/provinces-and-cities-npm",
+                        "description": "Install by npm."
+                    },
+                    {
+                        "title": "Python package",
+                        "link": "https://github.com/mohammad-prb/provinces-and-cities-pypi",
+                        "description": "Install by pip."
+                    },
+                    {
+                        "title": "PHP package",
+                        "link": "https://github.com/mohammad-prb/provinces-and-cities-composer",
+                        "description": "Install by composer."
+                    }
+                ]
+            },
+            {
+                "title": "js-flash package (npm)",
+                "link": "https://github.com/mohammad-prb/js-flash",
+                "texts": [
+                    "Implementing the official \"js-flash\" package to display Flash messages similar to \"toast\" and \"sonner\" in JavaScript projects.",
+                    "This package can be used in JavaScript frameworks such as Vue, React, Angular, etc. Also, it can be used in Pure JavaScript projects.",
+                    "This package is written by TypeScript for better performance. All documentation for this package, along with usage instructions, can be found on the project's GitHub page (project link)."
+                ]
+            },
+            {
+                "title": "Developing organizational and advertising websites",
+                "texts": [
+                    "Implementation of advertising and organizational websites that has led to the expansion of online activities, the expansion of advertising and the promotion of services of those centers and organizations.",
+                    "It has also provided cooperation with new organizations and significant improvements for them. Some examples:"
+                ],
+                "examples": [
+                    {
+                        "title": "Poosheshmobl Mashhad",
+                        "link": "https://www.poosheshmobl.ir",
+                        "description": "Poosheshmobl Mashhad, production and sewing workshop of all kinds of sofa covers and more. It is in the form of fabric and talki in Mashhad with more than half a century of experience and professional activity in this field."
+                    },
+                    {
+                        "title": "Zarsanj goldsmith school",
+                        "link": "https://www.faridakhondi.ir",
+                        "description": "Zarsanj Mehr Khorasan technical and vocational school of gold and jewelry is equipped with a 17025 gold grading laboratory with the 2017 version from Iran's National Certification Center. ISO 9001:2015 certified in England and more."
+                    },
+                    {
+                        "title": "Scientific and cultural foundation of Valayat",
+                        "link": "https://www.vlth.ir",
+                        "description": "Scientific and Cultural Foundation \"Velayat\" with the aim of training committed human resources. Economic development, provision of social and cultural services and expansion of international activities carry out many activities."
+                    },
+                    {
+                        "title": "Foundation for publishing the values of \"Defae Moghadas\"",
+                        "link": "https://www.narkh.ir",
+                        "description": "The Department of Preservation of Publication of the Values of the Sacred Defense of Khorasan Razavi it was established in 1990 according to the decree of the Supreme Commander of the Armed Forces and the description of the duties of the General Staff of the Armed Forces."
+                    },
+                    {
+                        "title": "Hubalullah Islamic Foundation",
+                        "link": "https://www.mihm.ir",
+                        "description": "Habalullah Islamic Assembly of Mashhad is a people's organization that started its activities at the end of 2012. and performs its activities around the convergence of the Islamic nation."
+                    }
+                ]
+            },
+            {
+                "title": "Developing shopping websites",
+                "texts": [
+                    "The implementation of store websites that has led to the expansion of sales and online activities, increasing the variety of products and improving the services to the customers of that store.",
+                    "It has also provided them with cooperation with new and prominent brands. Some examples:"
+                ],
+                "examples": [
+                    {
+                        "title": "Glen gold store",
+                        "link": "https://glengold.org",
+                        "description": "Glen Store, with over 16 years of experience, designs, manufactures, and supplies a variety of gold artifacts in an attractive and different style."
+                    },
+                    {
+                        "title": "Rayeheman store",
+                        "link": "https://rayehemanshop.ir",
+                        "description": "Rayeheman store is a producer and seller of all kinds of natural, special and therapeutic perfumes and oils."
+                    },
+                    {
+                        "title": "Valiasr Art Center",
+                        "link": "https://honardouz.ir",
+                        "description": "Valiasr Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc."
+                    },
+                    {
+                        "title": "Dikala store",
+                        "link": "https://dikala.ir",
+                        "description": "Dikala store is a supplier of all kinds of quality digital products it includes all kinds of mobile phones, smart watches, game consoles, Airpods, headsets, printers and accessories."
+                    },
+                    {
+                        "title": "Cheshm bartar store",
+                        "link": "https://cheshmbartar.ir",
+                        "description": "Cheshm bartar company produces all kinds of digital products, CCTV cameras, burglar alarms, network equipment, automatic doors, tracking equipment, etc."
+                    },
+                    {
+                        "title": "Sahour store",
+                        "link": "https://sahour.ir",
+                        "description": "Sahour cashmere store is a producer and seller of all kinds of cashmere, rugs, tablecloths, velvet, etc."
+                    }
+                ]
+            },
+            {
+                "title": "News Collector",
+                "link": "https://github.com/mohammad-prb/news-collector",
+                "texts": [
+                    "This project collects recent news on news websites about a keyword and adds the collected news to the database. These news can be displayed anywhere on your website to keep your site content updated for users and search engines.",
+                    "This project is placed in Cronjob server to continuously collect this news. This project is very useful for improving the SEO of the website by keeping the site up-to-date and placing content related to users' searches on the website, and significantly increases website visits and optimizes the website for search engines."
+                ]
+            },
+            {
+                "title": "Document management web application",
+                "link": "https://github.com/mohammad-prb/document-management",
+                "texts": [
+                    "This program is used to manage documents in an organization. In this program, you enter your people and determine the access level of each one. You can then upload documents for each of the access levels. After entering the program, each person can only view the documents they need.",
+                    "This web application is used to control the access of the organization's employees, and with the help of this program, the organization's documents can be categorized so that the access to these documents is easy and the documents are not crowded. Also, the date and time of uploading each file is specified and their order is specified. You can access the previous versions of these files at any time."
+                ]
+            },
+            {
+                "title": "Roll call web application",
+                "texts": [
+                    "In this program, you enter the start and end time of each day for your people. This program calculates the amount of work of each person in the day, week, month and year. It also provides different statistics of each person's working time in different time periods.",
+                    "This application also calculates the salary of each person based on the time of work done. In this program, you have the history of working hours and calculated salaries for your employees."
+                ]
+            }
+        ]
+    },
+    "source": "Source code of this resume"
+}
