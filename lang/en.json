@@ -8,7 +8,7 @@
     "about": {
         "title": "About me",
         "texts": [
-            "Full-stack developer with over 7 years of specialized programming experience and collaboration on over 20 commercial and corporate projects.",
+            "Full-stack developer with over 7 years of specialized programming experience and collaboration on over 25 commercial and corporate projects.",
             "Web developer with experience and skills in all stages of advanced web development.",
             "Has a diverse set of back-end and front-end programming skills with the ability to complete projects individually and in a team."
         ]
@@ -44,7 +44,7 @@
         },
         {
             "title": "GitHub Stars",
-            "number": "+70"
+            "number": "+80"
         }
     ],
     "experiences": {
