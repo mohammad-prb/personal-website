@@ -82,15 +82,13 @@ a.changetThemeBtn svg.active {
 a.lang, a.lang:link, a.lang:visited {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     position: absolute;
     top: 5px;
     left: 5px;
     padding: 7px 10px;
     direction: ltr;
-}
-a.lang > span {
-    margin-top: 4px;
+    font-family: englishFont;
 }
 img.mainImage {
     display: block;
@@ -300,6 +298,29 @@ img.uniLogo {
 }
 .uniInfoItem:first-child {
     font-size: 1rem;
+    font-weight: bold;
+}
+.iconBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.iconBoxItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px 30px;
+    border-radius: var(--rds-3);
+    border: 5px solid var(--cl-1-bck-gls);
+    background-color: var(--bck-1-hov);
+}
+.iconBoxNumber {
+    direction: ltr;
+    font-size: 4.5rem;
+    color: var(--cl-1-bck-hov);
+}
+.iconBoxTitle {
+    font-size: 1.125rem;
     font-weight: bold;
 }
 .jobs, .projects {

@@ -40,6 +40,16 @@
     strong.softSkill {
         width: auto;
     }
+    .iconBox {
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 20px;
+    }
+    .iconBoxNumber {
+        font-size: 4rem;
+    }
+    .iconBoxTitle {
+        font-size: 1rem;
+    }
     .line {
         inset-inline-start: 0;
     }

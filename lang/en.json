@@ -29,6 +29,24 @@
         "university": "Islamic Azad University (2020 - 2024)",
         "gpa": "GPA: 18.82"
     },
+    "iconBox": [
+        {
+            "title": "Business Project",
+            "number": "+10"
+        },
+        {
+            "title": "Corporate Project",
+            "number": "+16"
+        },
+        {
+            "title": "Years  Experience",
+            "number": "+7"
+        },
+        {
+            "title": "GitHub Stars",
+            "number": "+70"
+        }
+    ],
     "experiences": {
         "title": "Work Experiences",
         "items": [

@@ -1,5 +1,5 @@
 <?php
-$version = "4.0.0";
+$version = "4.1.0";
 
 if (isset($_GET["en"])) $lang = "en";
 else $lang = "fa";
@@ -256,6 +256,18 @@ $content = json_decode($file);
                 </div>
             </div>
         </div>
+    </div>
+    <div class="iconBox">
+        <?php
+        array_map(function ($item) {
+            echo <<<HTML
+                <div class="iconBoxItem">
+                    <div class="iconBoxNumber">$item->number</div>
+                    <div class="iconBoxTitle">$item->title</div>
+                </div>
+            HTML;
+        }, $content->iconBox);
+        ?>
     </div>
     <div class="box jobs">
         <h3 class="boxTitle">
