@@ -1,5 +1,5 @@
 <?php
-$version = "4.2.0";
+$version = "4.2.1";
 
 if (isset($_GET["en"])) $lang = "en";
 else $lang = "fa";
