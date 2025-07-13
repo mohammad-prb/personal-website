@@ -1,5 +1,5 @@
 <?php
-$version = "4.1.1";
+$version = "4.2.0";
 
 if (isset($_GET["en"])) $lang = "en";
 else $lang = "fa";
@@ -188,8 +188,9 @@ $content = json_decode($file);
                 <strong class="skill">jQuery</strong>
                 <strong class="skill">JavaScript/TypeScript</strong>
                 <strong class="skill">TailwindCSS</strong>
-                <strong class="skill">SASS</strong>
-                <strong class="skill">HTML/CSS</strong>
+                <strong class="skill">HTML/CSS/SASS</strong>
+                <strong class="skill">RESTful API</strong>
+                <strong class="skill">Telegram Bot</strong>
             </div>
         </div>
     </div>
@@ -392,7 +393,7 @@ $content = json_decode($file);
     </div>
 </div>
 </body>
-<script src="js/main.js"></script>
+<script src="js/main.js?v=<?php echo $version; ?>"></script>
 <script>
     if (localStorage.getItem("theme") === "light")
         document.getElementById("darkTheme").classList.add('active');

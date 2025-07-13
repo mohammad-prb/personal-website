@@ -67,8 +67,8 @@ p {
 }
 a.changetThemeBtn, a.changetThemeBtn:link, a.changetThemeBtn:visited {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -84,8 +84,8 @@ a.lang, a.lang:link, a.lang:visited {
     align-items: center;
     gap: 4px;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     padding: 7px 10px;
     direction: ltr;
     font-family: englishFont;
@@ -302,7 +302,7 @@ img.uniLogo {
 }
 .iconBox {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
 }
 .iconBoxItem {
@@ -447,7 +447,8 @@ a.projectLink:active {
 }
 .examples {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-columns: auto;
     gap: 15px;
     margin: 15px 0;
 }
