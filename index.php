@@ -1,5 +1,5 @@
 <?php
-$version = "4.2.1";
+$version = "4.2.2";
 
 if (isset($_GET["en"])) $lang = "en";
 else $lang = "fa";
@@ -248,11 +248,11 @@ $content = json_decode($file);
             </h3>
             <div class="boxContent">
                 <div class="university">
-                    <img class="uniLogo" src="img/university.png" alt="<?php echo $content->education->university; ?>"/>
+                    <img class="uniLogo" src="img/uni.png" alt="<?php echo $content->education->university; ?>"/>
                     <div class="uniInfo">
                         <div class="uniInfoItem"><?php echo $content->education->description; ?></div>
                         <div class="uniInfoItem"><?php echo $content->education->university; ?></div>
-                        <div class="uniInfoItem"><?php echo $content->education->gpa; ?></div>
+                        <div class="uniInfoItem"><?php echo $content->education->date; ?></div>
                     </div>
                 </div>
             </div>
