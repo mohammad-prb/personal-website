@@ -1,5 +1,5 @@
 <?php
-$version = "4.2.2";
+$version = "4.2.3";
 
 if (isset($_GET["en"])) $lang = "en";
 else $lang = "fa";
@@ -81,14 +81,14 @@ $content = json_decode($file);
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone">
                 <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
             </svg>
-            <span><?php echo $content->mobile; ?></span>
+            <a href="tel:+989158955030" target="_self"><?php echo $content->mobile; ?></a>
         </div>
         <div class="infoItem">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
                 <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
                 <rect x="2" y="4" width="20" height="16" rx="2"/>
             </svg>
-            <span>pspipm27@gmail.com</span>
+            <a href="mailto:pspipm27@gmail.com" target="_self">pspipm27@gmail.com</a>
         </div>
         <div class="infoItem">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin">
@@ -184,9 +184,8 @@ $content = json_decode($file);
                 <strong class="skill">Java</strong>
                 <strong class="skill">MySQL</strong>
                 <strong class="skill">Vue/Nuxt</strong>
-                <strong class="skill">React/Next</strong>
+                <strong class="skill">TypeScript</strong>
                 <strong class="skill">jQuery</strong>
-                <strong class="skill">JavaScript/TypeScript</strong>
                 <strong class="skill">TailwindCSS</strong>
                 <strong class="skill">HTML/CSS/SASS</strong>
                 <strong class="skill">RESTful API</strong>
@@ -345,13 +344,15 @@ $content = json_decode($file);
                         </h4>
                 HTML;
 
-                if (!empty($item->link))
+                if (!empty($item->link)) {
+                    $title = str_replace('https://', '', $item->link);
                     echo <<<HTML
                         <div class="projectLinkBox">
                             <div class="projectLinkTitle">{$content->projects->linkTitle}:</div>
-                            <a class="projectLink" href="$item->link">$item->link</a>
+                            <a class="projectLink" href="$item->link">$title</a>
                         </div>
                     HTML;
+                }
 
                 echo <<<HTML
                     <div class="paragraphs">
@@ -388,7 +389,7 @@ $content = json_decode($file);
     <div class="source">
         <h4 class="sourceTitle"><?php echo $content->source; ?>:</h4>
         <a class="projectLink" href="https://github.com/mohammad-prb/personal-website">
-            https://github.com/mohammad-prb/personal-website
+            github.com/mohammad-prb/personal-website
         </a>
     </div>
 </div>

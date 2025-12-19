@@ -439,6 +439,7 @@ a.projectLink, a.projectLink:link, a.projectLink:visited {
     overflow: hidden;
     text-overflow: ellipsis;
     direction: ltr;
+    text-decoration: underline;
     color: var(--cl-1-bck-hov);
 }
 a.projectLink:hover {

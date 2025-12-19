@@ -27,7 +27,7 @@
         "title": "Education",
         "description": "M.Sc Computer Engineering (Artificial Intelligence)",
         "university": "Ferdowsi University",
-        "date": "2025 - now"
+        "date": "2025 - Present"
     },
     "iconBox": [
         {
@@ -52,20 +52,32 @@
         "items": [
             {
                 "title": "Full-stack developer",
-                "organ": "OrioTech (Mashhad)",
-                "description": "Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.",
+                "organ": "Blits agency",
+                "description": "Development of various websites, platforms, etc.",
+                "date": "Dec 2025 - Present"
+            },
+            {
+                "title": "Full-stack developer",
+                "organ": "HOMA",
+                "description": "Development of financial platforms, Telegram bots, online stores, etc.",
+                "date": "Nov 2024 - Present"
+            },
+            {
+                "title": "Full-stack developer",
+                "organ": "OrioTech",
+                "description": "Development of various types of websites: store, personal, educational, organizational, etc.",
                 "date": "Jun 2022 - Mar 2024"
             },
             {
                 "title": "Teaching at the university",
                 "organ": "Islamic Azad University (Mashhad)",
-                "description": "Teaching The Theory of Formal Languages and Automata in Islamic Azad University under the supervision of Dr. Nona Helmi in the second semester of academic year 2023.",
+                "description": "Teaching The Theory of Formal Languages and Automata (Computer Science) in Islamic Azad University under the supervision of Dr. Nona Helmi in the second semester of academic year 2023.",
                 "date": "Jan 2023 - Jul 2023",
                 "certificate": "file/mohammad-pourbehzad.pdf"
             },
             {
                 "title": "Web developer",
-                "organ": "Avizhgan (Mashhad)",
+                "organ": "Avizhgan",
                 "description": "Front-end and back-end development of various types of websites such as shopping, personal, educational, organizational, etc.",
                 "date": "Jun 2018 - Jun 2022"
             }
@@ -120,27 +132,27 @@
                 "examples": [
                     {
                         "title": "Poosheshmobl Mashhad",
-                        "link": "https://www.poosheshmobl.ir",
+                        "link": "https://poosheshmobl.ir",
                         "description": "Poosheshmobl Mashhad, production and sewing workshop of all kinds of sofa covers and more. It is in the form of fabric and talki in Mashhad with more than half a century of experience and professional activity in this field."
                     },
                     {
                         "title": "Zarsanj goldsmith school",
-                        "link": "https://www.faridakhondi.ir",
+                        "link": "https://faridakhondi.ir",
                         "description": "Zarsanj Mehr Khorasan technical and vocational school of gold and jewelry is equipped with a 17025 gold grading laboratory with the 2017 version from Iran's National Certification Center. ISO 9001:2015 certified in England and more."
                     },
                     {
                         "title": "Scientific and cultural foundation of Valayat",
-                        "link": "https://www.vlth.ir",
+                        "link": "https://vlth.ir",
                         "description": "Scientific and Cultural Foundation \"Velayat\" with the aim of training committed human resources. Economic development, provision of social and cultural services and expansion of international activities carry out many activities."
                     },
                     {
                         "title": "Foundation for publishing the values of \"Defae Moghadas\"",
-                        "link": "https://www.narkh.ir",
+                        "link": "https://narkh.ir",
                         "description": "The Department of Preservation of Publication of the Values of the Sacred Defense of Khorasan Razavi it was established in 1990 according to the decree of the Supreme Commander of the Armed Forces and the description of the duties of the General Staff of the Armed Forces."
                     },
                     {
                         "title": "Hubalullah Islamic Foundation",
-                        "link": "https://www.mihm.ir",
+                        "link": "https://mihm.ir",
                         "description": "Habalullah Islamic Assembly of Mashhad is a people's organization that started its activities at the end of 2012. and performs its activities around the convergence of the Islamic nation."
                     }
                 ]
@@ -166,11 +178,6 @@
                         "title": "Valiasr Art Center",
                         "link": "https://honardouz.ir",
                         "description": "Valiasr Art Center produces all kinds of embroidered panels, such as hanging panels, names, Quranic panels, etc."
-                    },
-                    {
-                        "title": "Dikala store",
-                        "link": "https://dikala.ir",
-                        "description": "Dikala store is a supplier of all kinds of quality digital products it includes all kinds of mobile phones, smart watches, game consoles, Airpods, headsets, printers and accessories."
                     },
                     {
                         "title": "Cheshm bartar store",

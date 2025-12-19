@@ -42,10 +42,10 @@
     }
     .iconBox {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin: 0px 20px;
+        margin: 10px 30px;
     }
     .iconBoxNumber {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .iconBoxTitle {
         font-size: 1rem;
