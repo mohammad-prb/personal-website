@@ -8,7 +8,7 @@ $file = file_get_contents("lang/$lang.json");
 $content = json_decode($file);
 ?>
 <!DOCTYPE html>
-<html lang="fa-ir">
+<html lang="<?php echo $lang; ?>">
 <head>
     <title><?php echo $content->name . " | " . $content->title; ?></title>
     <base target="_blank"/>
