@@ -1,8 +1,11 @@
 <?php
 $version = "4.2.3";
 
-if (isset($_GET["en"])) $lang = "en";
-else $lang = "fa";
+if (isset($_GET["en"])) {
+    $lang = "en";
+} else {
+    $lang = "fa";
+}
 
 $file = file_get_contents("lang/$lang.json");
 $content = json_decode($file);
@@ -21,9 +24,11 @@ $content = json_decode($file);
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <link rel="shortcut icon" href="img/mohammad-pic.png"/>
     <script>
-        let version = "<?php echo $version; ?>";
-        if (localStorage.getItem("theme") === null)
+        if (localStorage.getItem("theme") === null) {
             localStorage.setItem("theme", "light");
+        }
+
+        let version = "<?php echo $version; ?>";
         document.write(`<link id="theme" rel="stylesheet" href="css/theme/${localStorage.getItem("theme")}.css?v=${version}"/>`);
     </script>
     <link rel="stylesheet" href="css/style.css?v=<?php echo $version; ?>"/>
@@ -209,25 +214,33 @@ $content = json_decode($file);
             </h3>
             <div class="boxContent">
                 <div class="softSkillItem">
-                    <strong class="softSkill"><?php echo $content->softSkills->items[0]; ?></strong>
+                    <strong class="softSkill">
+                        <?php echo $content->softSkills->items[0]; ?>
+                    </strong>
                     <div class="range">
                         <span style="width: 95%;"></span>
                     </div>
                 </div>
                 <div class="softSkillItem">
-                    <strong class="softSkill"><?php echo $content->softSkills->items[1]; ?></strong>
+                    <strong class="softSkill">
+                        <?php echo $content->softSkills->items[1]; ?>
+                    </strong>
                     <div class="range">
                         <span style="width: 88%;"></span>
                     </div>
                 </div>
                 <div class="softSkillItem">
-                    <strong class="softSkill"><?php echo $content->softSkills->items[2]; ?></strong>
+                    <strong class="softSkill">
+                        <?php echo $content->softSkills->items[2]; ?>
+                    </strong>
                     <div class="range">
                         <span style="width: 92%;"></span>
                     </div>
                 </div>
                 <div class="softSkillItem">
-                    <strong class="softSkill"><?php echo $content->softSkills->items[3]; ?></strong>
+                    <strong class="softSkill">
+                        <?php echo $content->softSkills->items[3]; ?>
+                    </strong>
                     <div class="range">
                         <span style="width: 97%;"></span>
                     </div>
@@ -249,9 +262,15 @@ $content = json_decode($file);
                 <div class="university">
                     <img class="uniLogo" src="img/uni.png" alt="<?php echo $content->education->university; ?>"/>
                     <div class="uniInfo">
-                        <div class="uniInfoItem"><?php echo $content->education->description; ?></div>
-                        <div class="uniInfoItem"><?php echo $content->education->university; ?></div>
-                        <div class="uniInfoItem"><?php echo $content->education->date; ?></div>
+                        <div class="uniInfoItem">
+                            <?php echo $content->education->description; ?>
+                        </div>
+                        <div class="uniInfoItem">
+                            <?php echo $content->education->university; ?>
+                        </div>
+                        <div class="uniInfoItem">
+                            <?php echo $content->education->date; ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -396,9 +415,10 @@ $content = json_decode($file);
 </body>
 <script src="js/main.js?v=<?php echo $version; ?>"></script>
 <script>
-    if (localStorage.getItem("theme") === "light")
+    if (localStorage.getItem("theme") === "light") {
         document.getElementById("darkTheme").classList.add('active');
-    else
+    } else {
         document.getElementById("lightTheme").classList.add('active');
+    }
 </script>
 </html>

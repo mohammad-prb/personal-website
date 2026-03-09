@@ -6,8 +6,7 @@ function changeTheme() {
         localStorage.setItem("theme", "dark");
         lmnLight.classList.add('active');
         lmnDark.classList.remove('active');
-    }
-    else {
+    } else {
         localStorage.setItem("theme", "light");
         lmnLight.classList.remove('active');
         lmnDark.classList.add('active');
