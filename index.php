@@ -1,10 +1,10 @@
 <?php
-$version = "4.2.3";
+$version = '4.2.3';
 
-if (isset($_GET["en"])) {
-    $lang = "en";
+if (isset($_GET['en'])) {
+    $lang = 'en';
 } else {
-    $lang = "fa";
+    $lang = 'fa';
 }
 
 $file = file_get_contents("lang/$lang.json");
@@ -13,7 +13,7 @@ $content = json_decode($file);
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
 <head>
-    <title><?php echo $content->name . " | " . $content->title; ?></title>
+    <title><?php echo $content->name.' | '.$content->title; ?></title>
     <base target="_blank"/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,12 +24,12 @@ $content = json_decode($file);
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <link rel="shortcut icon" href="img/mohammad-pic.png"/>
     <script>
-        if (localStorage.getItem("theme") === null) {
-            localStorage.setItem("theme", "light");
+        if (localStorage.getItem('theme') === null) {
+            localStorage.setItem('theme', 'light');
         }
 
         let version = "<?php echo $version; ?>";
-        document.write(`<link id="theme" rel="stylesheet" href="css/theme/${localStorage.getItem("theme")}.css?v=${version}"/>`);
+        document.write(`<link id="theme" rel="stylesheet" href="css/theme/${localStorage.getItem('theme')}.css?v=${version}"/>`);
     </script>
     <link rel="stylesheet" href="css/style.css?v=<?php echo $version; ?>"/>
     <link rel="stylesheet" href="css/mobile.css?v=<?php echo $version; ?>"/>
@@ -415,10 +415,10 @@ $content = json_decode($file);
 </body>
 <script src="js/main.js?v=<?php echo $version; ?>"></script>
 <script>
-    if (localStorage.getItem("theme") === "light") {
-        document.getElementById("darkTheme").classList.add('active');
+    if (localStorage.getItem('theme') === 'light') {
+        document.getElementById('darkTheme').classList.add('active');
     } else {
-        document.getElementById("lightTheme").classList.add('active');
+        document.getElementById('lightTheme').classList.add('active');
     }
 </script>
 </html>
