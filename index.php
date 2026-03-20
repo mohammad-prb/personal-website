@@ -3,8 +3,10 @@ $version = '4.2.3';
 
 if (isset($_GET['en'])) {
     $lang = 'en';
+    $anotherLang = 'fa';
 } else {
     $lang = 'fa';
+    $anotherLang = 'en';
 }
 
 $file = file_get_contents("lang/$lang.json");
@@ -52,13 +54,13 @@ $content = json_decode($file);
             <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
         </svg>
     </a>
-    <a class="lang icon" href="<?php echo $lang == 'fa' ? '?en' : '?fa'; ?>" target="_self">
+    <a class="lang icon" href="?<?php echo $anotherLang; ?>" target="_self">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe">
             <circle cx="12" cy="12" r="10"/>
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
             <path d="M2 12h20"/>
         </svg>
-        <span><?php echo $lang == 'fa' ? 'EN' : 'FA'; ?></span>
+        <span><?php echo strtoupper($anotherLang) ?></span>
     </a>
     <img class="mainImage" src="img/main-pic.jpg" alt="محمد پوربهزاد"/>
     <h1 class="name"><?php echo $content->name; ?></h1>
@@ -406,7 +408,9 @@ $content = json_decode($file);
         </div>
     </div>
     <div class="source">
-        <h4 class="sourceTitle"><?php echo $content->source; ?>:</h4>
+        <h4 class="sourceTitle">
+            <?php echo $content->source; ?>:
+        </h4>
         <a class="projectLink" href="https://github.com/mohammad-prb/personal-website">
             github.com/mohammad-prb/personal-website
         </a>
