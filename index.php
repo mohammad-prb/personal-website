@@ -1,5 +1,5 @@
 <?php
-$version = '4.2.3';
+$version = '4.2.4';
 
 if (isset($_GET['en'])) {
     $lang = 'en';
@@ -20,7 +20,7 @@ $content = json_decode($file);
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="محمد پوربهزاد,محمد,پوربهزاد,پور بهزاد,محمد پور بهزاد,برنامه نویس,برنامه نویس وب,developer,web developer,frontend,backend,فرانت اند,بک اند,فول استک,mohammad,pourbehzad,mohammad pourbehzad,full stack"/>
-    <meta name="description" content="<?php echo implode(' ', $content->about->texts); ?><"/>
+    <meta name="description" content="<?php echo implode(' ', $content->about->texts); ?>"/>
     <meta name="author" content="<?php echo $content->name; ?>"/>
     <meta name="theme-color" content="#00B3FF"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
@@ -60,7 +60,7 @@ $content = json_decode($file);
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
             <path d="M2 12h20"/>
         </svg>
-        <span><?php echo strtoupper($anotherLang) ?></span>
+        <span><?php echo strtoupper($anotherLang); ?></span>
     </a>
     <img class="mainImage" src="img/main-pic.jpg" alt="محمد پوربهزاد"/>
     <h1 class="name"><?php echo $content->name; ?></h1>
