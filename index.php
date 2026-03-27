@@ -1,5 +1,5 @@
 <?php
-$version = '4.2.4';
+$version = '4.2.5';
 
 if (isset($_GET['en'])) {
     $lang = 'en';
@@ -186,11 +186,14 @@ $content = json_decode($file);
                 </span>
             </h3>
             <div class="boxContent">
-                <strong class="skill">PHP/Laravel</strong>
-                <strong class="skill">Python/FastAPI</strong>
+                <strong class="skill">PHP</strong>
+                <strong class="skill">Laravel</strong>
+                <strong class="skill">Python</strong>
+                <strong class="skill">FastAPI</strong>
                 <strong class="skill">Java</strong>
-                <strong class="skill">MySQL</strong>
-                <strong class="skill">Vue/Nuxt</strong>
+                <strong class="skill">SQL</strong>
+                <strong class="skill">Vue.js</strong>
+                <strong class="skill">Nuxt.js</strong>
                 <strong class="skill">TypeScript</strong>
                 <strong class="skill">jQuery</strong>
                 <strong class="skill">TailwindCSS</strong>
