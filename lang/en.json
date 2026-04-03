@@ -209,7 +209,7 @@
                 "link": "https://github.com/mohammad-prb/document-management",
                 "texts": [
                     "This program is used to manage documents in an organization. In this program, you enter your people and determine the access level of each one. You can then upload documents for each of the access levels. After entering the program, each person can only view the documents they need.",
-                    "This web application is used to control the access of the organization's employees, and with the help of this program, the organization's documents can be categorized so that the access to these documents is easy and the documents are not crowded. Also, the date and time of uploading each file is specified and their order is specified. You can access the previous versions of these files at any time."
+                    "This web application is used to control the access of the organization's employees, and with the help of this program, the organization's documents can be categorized so that the access to these documents is easy and the documents are not crowded. Also, you can access the previous versions of these files at any time."
                 ]
             },
             {
