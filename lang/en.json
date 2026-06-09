@@ -1,14 +1,14 @@
 {
     "name": "Mohammad Pourbehzad",
     "title": "Full-stack developer",
-    "age": "Born in 2002 (23 years old)",
-    "experience": "7 years of work experience",
+    "age": "Born in 2002 (24 years old)",
+    "experience": "8 years of work experience",
     "mobile": "+989158955030",
     "location": "Iran - Mashhad",
     "about": {
         "title": "About me",
         "texts": [
-            "Full-stack developer with over 7 years of specialized programming experience and collaboration on over 25 commercial and corporate projects.",
+            "Full-stack developer with over 8 years of specialized programming experience and collaboration on over 25 commercial and corporate projects.",
             "Web developer with experience and skills in all stages of advanced web development.",
             "Has a diverse set of back-end and front-end programming skills with the ability to complete projects individually and in a team."
         ]
@@ -40,7 +40,7 @@
         },
         {
             "title": "Years  Experience",
-            "number": "+7"
+            "number": "+8"
         },
         {
             "title": "GitHub Stars",
@@ -53,7 +53,7 @@
             {
                 "title": "Full-stack developer",
                 "organ": "Blits agency",
-                "description": "Development of various websites, platforms, etc.",
+                "description": "Development of various international websites, platforms, etc.",
                 "date": "Dec 2025 - Present"
             },
             {
@@ -132,7 +132,7 @@
                 "examples": [
                     {
                         "title": "Raad Polymer Sun Arya",
-                        "link": "https://radd-polymer-sun-arya.com",
+                        "link": "https://raadpolymersunarya.com",
                         "description": "Rad Polymer San Aria, a knowledge-based company, operates in the production of sound, vibration, and harshness (NVH) insulation products and other advanced chemical products, relying on skilled, creative, and committed human resources to enhance customer satisfaction."
                     },
                     {
